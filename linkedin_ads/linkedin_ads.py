@@ -1,5 +1,6 @@
 import json
 import os
+import secrets
 import time
 import urllib.parse
 from datetime import datetime, timedelta
@@ -20,7 +21,7 @@ OAUTH_TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken"
 BASE_URL = "https://api.linkedin.com/rest/"
 API_VERSION = "202604"
 MAX_RETRIES = 3
-TOKEN_FILE = Path("token.json")
+TOKEN_FILE = Path(__file__).parent / "token.json"
 
 
 # --- Token utilities ---
@@ -55,7 +56,11 @@ def save_token(token: dict) -> None:
 def load_token() -> dict | None:
     if not TOKEN_FILE.exists():
         return None
-    return json.loads(TOKEN_FILE.read_text())
+    try:
+        return json.loads(TOKEN_FILE.read_text())
+    except (json.JSONDecodeError, ValueError):
+        print("Warning: token.json is corrupt, re-running auth flow...")
+        return None
 
 
 def _exchange_code(code: str) -> dict:
@@ -88,11 +93,13 @@ def _refresh_token(refresh_token: str) -> dict:
 
 
 def _run_full_auth_flow() -> dict:
+    state = secrets.token_urlsafe(16)
     params = {
         "response_type": "code",
         "client_id": CLIENT_ID,
         "redirect_uri": REDIRECT_URI,
         "scope": SCOPES,
+        "state": state,
     }
     auth_url = f"{OAUTH_AUTH_URL}?{urllib.parse.urlencode(params)}"
     print(f"\nOpen this URL in your browser:\n{auth_url}\n")
