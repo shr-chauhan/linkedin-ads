@@ -139,3 +139,45 @@ def get_valid_token() -> str:
             return token["access_token"]
 
     return token["access_token"]
+
+
+# --- API client ---
+
+def make_request(method: str, endpoint: str, token: str, params: dict = None, json_data: dict = None) -> dict:
+    url = BASE_URL + endpoint
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "LinkedIn-Version": API_VERSION,
+        "X-Restli-Protocol-Version": "2.0.0",
+    }
+    for attempt in range(MAX_RETRIES):
+        try:
+            resp = requests.request(method, url, headers=headers, params=params, json=json_data)
+            if resp.status_code == 429:
+                wait = 2 ** attempt
+                print(f"  Rate limited (429). Waiting {wait}s before retry {attempt + 1}/{MAX_RETRIES}...")
+                time.sleep(wait)
+                continue
+            resp.raise_for_status()
+            return resp.json()
+        except requests.HTTPError as e:
+            print(f"  HTTP error on {url}: {e}")
+            raise
+    raise Exception(f"Max retries exceeded for {url}")
+
+
+def paginate(endpoint: str, token: str, params: dict = None) -> list:
+    params = dict(params or {})
+    params["count"] = 100
+    params["start"] = 0
+    all_elements = []
+    while True:
+        data = make_request("GET", endpoint, token, params=params)
+        elements = data.get("elements", [])
+        all_elements.extend(elements)
+        paging = data.get("paging", {})
+        total = paging.get("total", len(all_elements))
+        if len(all_elements) >= total or not elements:
+            break
+        params["start"] += len(elements)
+    return all_elements

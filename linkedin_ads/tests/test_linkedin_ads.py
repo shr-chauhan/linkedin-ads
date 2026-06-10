@@ -42,3 +42,57 @@ def test_extract_id_from_dict():
 def test_extract_id_plain_string():
     from linkedin_ads import extract_id
     assert extract_id("42") == "42"
+
+
+def test_make_request_success():
+    from linkedin_ads import make_request
+    mock_resp = MagicMock()
+    mock_resp.status_code = 200
+    mock_resp.json.return_value = {"elements": [{"id": "1"}]}
+    with patch("linkedin_ads.requests.request", return_value=mock_resp):
+        result = make_request("GET", "adAccounts", "fake_token")
+    assert result == {"elements": [{"id": "1"}]}
+
+
+def test_make_request_retries_on_429():
+    from linkedin_ads import make_request
+    rate_limit_resp = MagicMock()
+    rate_limit_resp.status_code = 429
+
+    success_resp = MagicMock()
+    success_resp.status_code = 200
+    success_resp.json.return_value = {"elements": []}
+
+    with patch("linkedin_ads.requests.request", side_effect=[rate_limit_resp, success_resp]):
+        with patch("linkedin_ads.time.sleep") as mock_sleep:
+            result = make_request("GET", "adAccounts", "fake_token")
+    mock_sleep.assert_called_once_with(1)
+    assert result == {"elements": []}
+
+
+def test_make_request_raises_after_max_retries():
+    from linkedin_ads import make_request
+    rate_limit_resp = MagicMock()
+    rate_limit_resp.status_code = 429
+
+    with patch("linkedin_ads.requests.request", return_value=rate_limit_resp):
+        with patch("linkedin_ads.time.sleep"):
+            with pytest.raises(Exception, match="Max retries exceeded"):
+                make_request("GET", "adAccounts", "fake_token")
+
+
+def test_paginate_single_page():
+    from linkedin_ads import paginate
+    response = {"elements": [{"id": "1"}, {"id": "2"}], "paging": {"total": 2}}
+    with patch("linkedin_ads.make_request", return_value=response):
+        result = paginate("adAccounts", "fake_token")
+    assert len(result) == 2
+
+
+def test_paginate_multiple_pages():
+    from linkedin_ads import paginate
+    page1 = {"elements": [{"id": str(i)} for i in range(100)], "paging": {"total": 150}}
+    page2 = {"elements": [{"id": str(i)} for i in range(100, 150)], "paging": {"total": 150}}
+    with patch("linkedin_ads.make_request", side_effect=[page1, page2]):
+        result = paginate("adAccounts", "fake_token")
+    assert len(result) == 150
