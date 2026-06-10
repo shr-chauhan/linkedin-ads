@@ -133,3 +133,35 @@ def test_fetch_campaign_groups():
         "adCampaignGroups", "fake_token",
         {"q": "search", "search.account": "urn:li:sponsoredAccount:111"}
     )
+
+
+def test_fetch_campaign_analytics_batches_by_10():
+    from linkedin_ads import fetch_campaign_analytics
+    campaign_ids = [str(i) for i in range(25)]
+    mock_resp = {"elements": [{"impressions": 100}]}
+    with patch("linkedin_ads.make_request", return_value=mock_resp) as mock_req:
+        result = fetch_campaign_analytics("fake_token", campaign_ids)
+    # 25 campaigns → 3 batches: 10 + 10 + 5
+    assert mock_req.call_count == 3
+    assert len(result) == 3  # one element per batch response
+
+
+def test_fetch_campaign_analytics_includes_required_params():
+    from linkedin_ads import fetch_campaign_analytics
+    mock_resp = {"elements": []}
+    with patch("linkedin_ads.make_request", return_value=mock_resp) as mock_req:
+        fetch_campaign_analytics("fake_token", ["123"])
+    call_params = mock_req.call_args[1]["params"]
+    assert call_params["pivots"] == "List(CAMPAIGN)"
+    assert call_params["timeGranularity"] == "DAILY"
+    assert call_params["q"] == "statistics"
+
+
+def test_fetch_company_engagement_uses_company_pivot():
+    from linkedin_ads import fetch_company_engagement
+    mock_resp = {"elements": [{"impressions": 50}]}
+    with patch("linkedin_ads.make_request", return_value=mock_resp) as mock_req:
+        result = fetch_company_engagement("fake_token", ["456"])
+    call_params = mock_req.call_args[1]["params"]
+    assert call_params["pivots"] == "List(COMPANY)"
+    assert len(result) == 1

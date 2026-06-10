@@ -221,3 +221,65 @@ def fetch_campaigns(token: str, account_id: str) -> list:
     campaigns = paginate("adCampaigns", token, params)
     print(f"    Found {len(campaigns)} campaigns")
     return campaigns
+
+
+# --- Analytics fetchers ---
+
+CAMPAIGN_ANALYTICS_FIELDS = (
+    "impressions,clicks,costInLocalCurrency,externalWebsiteConversions,"
+    "costPerClick,clickThroughRate,costPerConversion,pivotValues,dateRange"
+)
+
+COMPANY_ENGAGEMENT_FIELDS = "impressions,clicks,costInLocalCurrency,pivotValues"
+
+
+def _build_date_range_param() -> str:
+    end = datetime.utcnow()
+    start = end - timedelta(days=30)
+    return (
+        f"(start:(year:{start.year},month:{start.month},day:{start.day}),"
+        f"end:(year:{end.year},month:{end.month},day:{end.day}))"
+    )
+
+
+def fetch_campaign_analytics(token: str, campaign_ids: list) -> list:
+    print(f"Fetching campaign analytics for {len(campaign_ids)} campaigns...")
+    date_range = _build_date_range_param()
+    results = []
+    for i in range(0, len(campaign_ids), 10):
+        batch = campaign_ids[i:i + 10]
+        urns = [f"urn:li:sponsoredCampaign:{cid}" for cid in batch]
+        campaigns_param = "List(" + ",".join(urns) + ")"
+        params = {
+            "q": "statistics",
+            "pivots": "List(CAMPAIGN)",
+            "timeGranularity": "DAILY",
+            "dateRange": date_range,
+            "campaigns": campaigns_param,
+            "fields": CAMPAIGN_ANALYTICS_FIELDS,
+        }
+        data = make_request("GET", "adAnalytics", token, params=params)
+        elements = data.get("elements", [])
+        results.extend(elements)
+    print(f"  Retrieved {len(results)} analytics records")
+    return results
+
+
+def fetch_company_engagement(token: str, campaign_ids: list) -> list:
+    print(f"Fetching company engagement for {len(campaign_ids)} campaigns...")
+    results = []
+    for i in range(0, len(campaign_ids), 10):
+        batch = campaign_ids[i:i + 10]
+        urns = [f"urn:li:sponsoredCampaign:{cid}" for cid in batch]
+        campaigns_param = "List(" + ",".join(urns) + ")"
+        params = {
+            "q": "statistics",
+            "pivots": "List(COMPANY)",
+            "campaigns": campaigns_param,
+            "fields": COMPANY_ENGAGEMENT_FIELDS,
+        }
+        data = make_request("GET", "adAnalytics", token, params=params)
+        elements = data.get("elements", [])
+        results.extend(elements)
+    print(f"  Retrieved {len(results)} company engagement records")
+    return results
