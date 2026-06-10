@@ -118,3 +118,18 @@ def test_fetch_campaigns():
         result = fetch_campaigns("fake_token", "111")
     assert len(result) == 1
     assert result[0]["name"] == "Campaign A"
+
+
+def test_fetch_campaign_groups():
+    from linkedin_ads import fetch_campaign_groups
+    mock_groups = [
+        {"id": "urn:li:sponsoredCampaignGroup:555", "name": "Group A", "status": "ACTIVE"}
+    ]
+    with patch("linkedin_ads.paginate", return_value=mock_groups) as mock_pag:
+        result = fetch_campaign_groups("fake_token", "111")
+    assert len(result) == 1
+    assert result[0]["name"] == "Group A"
+    mock_pag.assert_called_once_with(
+        "adCampaignGroups", "fake_token",
+        {"q": "search", "search.account": "urn:li:sponsoredAccount:111"}
+    )
