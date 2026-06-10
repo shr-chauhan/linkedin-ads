@@ -1,0 +1,134 @@
+import json
+import os
+import time
+import urllib.parse
+from datetime import datetime, timedelta
+from pathlib import Path
+
+import requests
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# --- Configuration ---
+CLIENT_ID = os.getenv("LINKEDIN_CLIENT_ID")
+CLIENT_SECRET = os.getenv("LINKEDIN_CLIENT_SECRET")
+REDIRECT_URI = os.getenv("LINKEDIN_REDIRECT_URI")
+SCOPES = "r_ads r_ads_reporting rw_ads r_organization_admin r_organization_social"
+OAUTH_AUTH_URL = "https://www.linkedin.com/oauth/v2/authorization"
+OAUTH_TOKEN_URL = "https://www.linkedin.com/oauth/v2/accessToken"
+BASE_URL = "https://api.linkedin.com/rest/"
+API_VERSION = "202604"
+MAX_RETRIES = 3
+TOKEN_FILE = Path("token.json")
+
+
+# --- Token utilities ---
+
+def extract_code_from_url(redirect_url: str) -> str:
+    parsed = urllib.parse.urlparse(redirect_url)
+    params = urllib.parse.parse_qs(parsed.query)
+    if "code" not in params:
+        raise ValueError("No 'code' parameter found in URL")
+    return params["code"][0]
+
+
+def is_token_expired(token: dict) -> bool:
+    expires_in = token.get("expires_in", 0)
+    obtained_at = token.get("obtained_at", 0)
+    return time.time() > obtained_at + expires_in - 60
+
+
+def extract_id(value) -> str:
+    if isinstance(value, dict):
+        value = value.get("id", "")
+    value = str(value)
+    if ":" in value:
+        return value.split(":")[-1]
+    return value
+
+
+def save_token(token: dict) -> None:
+    TOKEN_FILE.write_text(json.dumps(token, indent=2))
+
+
+def load_token() -> dict | None:
+    if not TOKEN_FILE.exists():
+        return None
+    return json.loads(TOKEN_FILE.read_text())
+
+
+def _exchange_code(code: str) -> dict:
+    data = {
+        "grant_type": "authorization_code",
+        "code": code,
+        "redirect_uri": REDIRECT_URI,
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+    }
+    resp = requests.post(OAUTH_TOKEN_URL, data=data)
+    resp.raise_for_status()
+    token = resp.json()
+    token["obtained_at"] = int(time.time())
+    return token
+
+
+def _refresh_token(refresh_token: str) -> dict:
+    data = {
+        "grant_type": "refresh_token",
+        "refresh_token": refresh_token,
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+    }
+    resp = requests.post(OAUTH_TOKEN_URL, data=data)
+    resp.raise_for_status()
+    token = resp.json()
+    token["obtained_at"] = int(time.time())
+    return token
+
+
+def _run_full_auth_flow() -> dict:
+    params = {
+        "response_type": "code",
+        "client_id": CLIENT_ID,
+        "redirect_uri": REDIRECT_URI,
+        "scope": SCOPES,
+    }
+    auth_url = f"{OAUTH_AUTH_URL}?{urllib.parse.urlencode(params)}"
+    print(f"\nOpen this URL in your browser:\n{auth_url}\n")
+    redirect_url = input("Paste the full redirect URL here: ").strip()
+    code = extract_code_from_url(redirect_url)
+    print("Exchanging code for token...")
+    token = _exchange_code(code)
+    save_token(token)
+    print("Token saved to token.json")
+    return token
+
+
+def get_valid_token() -> str:
+    token = load_token()
+    if token is None:
+        print("No token found. Starting OAuth flow...")
+        token = _run_full_auth_flow()
+        return token["access_token"]
+
+    if is_token_expired(token):
+        if "refresh_token" in token:
+            print("Access token expired, refreshing...")
+            try:
+                token = _refresh_token(token["refresh_token"])
+                save_token(token)
+                print("Token refreshed and saved")
+                return token["access_token"]
+            except Exception as e:
+                print(f"Refresh failed: {e}. Re-running full auth flow...")
+                TOKEN_FILE.unlink(missing_ok=True)
+                token = _run_full_auth_flow()
+                return token["access_token"]
+        else:
+            print("Token expired and no refresh token. Re-running full auth flow...")
+            TOKEN_FILE.unlink(missing_ok=True)
+            token = _run_full_auth_flow()
+            return token["access_token"]
+
+    return token["access_token"]
