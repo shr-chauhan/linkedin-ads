@@ -283,3 +283,55 @@ def fetch_company_engagement(token: str, campaign_ids: list) -> list:
         results.extend(elements)
     print(f"  Retrieved {len(results)} company engagement records")
     return results
+
+
+# --- Main orchestration ---
+
+def main():
+    token = get_valid_token()
+
+    # 1. Ad accounts
+    accounts = fetch_ad_accounts(token)
+    Path("ad_accounts.json").write_text(json.dumps(accounts, indent=2))
+    print(f"Saved ad_accounts.json ({len(accounts)} accounts)\n")
+
+    # 2. Campaigns (groups + campaigns per account)
+    all_campaign_ids = []
+    all_campaigns_data = []
+    for account in accounts:
+        account_id = extract_id(account.get("id", ""))
+        groups = fetch_campaign_groups(token, account_id)
+        campaigns = fetch_campaigns(token, account_id)
+        for c in campaigns:
+            cid = extract_id(c.get("id", ""))
+            if cid:
+                all_campaign_ids.append(cid)
+        all_campaigns_data.append({
+            "account_id": account_id,
+            "campaign_groups": groups,
+            "campaigns": campaigns,
+        })
+    Path("campaigns.json").write_text(json.dumps(all_campaigns_data, indent=2))
+    print(f"Saved campaigns.json ({len(all_campaign_ids)} campaigns total)\n")
+
+    # 3. Campaign analytics (last 30 days, CAMPAIGN pivot, DAILY granularity)
+    if all_campaign_ids:
+        analytics = fetch_campaign_analytics(token, all_campaign_ids)
+        Path("analytics.json").write_text(json.dumps(analytics, indent=2))
+        print(f"Saved analytics.json ({len(analytics)} records)\n")
+    else:
+        print("No campaigns found — skipping analytics\n")
+
+    # 4. Company engagement (COMPANY pivot)
+    if all_campaign_ids:
+        engagement = fetch_company_engagement(token, all_campaign_ids)
+        Path("company_engagement.json").write_text(json.dumps(engagement, indent=2))
+        print(f"Saved company_engagement.json ({len(engagement)} records)\n")
+    else:
+        print("No campaigns found — skipping company engagement\n")
+
+    print("Done!")
+
+
+if __name__ == "__main__":
+    main()

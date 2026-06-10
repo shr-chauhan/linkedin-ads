@@ -165,3 +165,30 @@ def test_fetch_company_engagement_uses_company_pivot():
     call_params = mock_req.call_args[1]["params"]
     assert call_params["pivots"] == "List(COMPANY)"
     assert len(result) == 1
+
+
+def test_main_saves_all_json_files(tmp_path, monkeypatch):
+    from linkedin_ads import main
+    monkeypatch.chdir(tmp_path)
+
+    mock_accounts = [{"id": "urn:li:sponsoredAccount:111", "name": "Acct", "status": "ACTIVE", "currency": "USD", "type": "ENTERPRISE"}]
+    mock_campaigns = [{"id": "urn:li:sponsoredCampaign:999", "name": "Camp", "status": "ACTIVE"}]
+    mock_analytics = [{"impressions": 100}]
+    mock_engagement = [{"impressions": 50}]
+
+    with patch("linkedin_ads.get_valid_token", return_value="fake_token"), \
+         patch("linkedin_ads.fetch_ad_accounts", return_value=mock_accounts), \
+         patch("linkedin_ads.fetch_campaign_groups", return_value=[]), \
+         patch("linkedin_ads.fetch_campaigns", return_value=mock_campaigns), \
+         patch("linkedin_ads.fetch_campaign_analytics", return_value=mock_analytics), \
+         patch("linkedin_ads.fetch_company_engagement", return_value=mock_engagement):
+        main()
+
+    assert (tmp_path / "ad_accounts.json").exists()
+    assert (tmp_path / "campaigns.json").exists()
+    assert (tmp_path / "analytics.json").exists()
+    assert (tmp_path / "company_engagement.json").exists()
+
+    accounts_data = json.loads((tmp_path / "ad_accounts.json").read_text())
+    assert len(accounts_data) == 1
+    assert accounts_data[0]["name"] == "Acct"
