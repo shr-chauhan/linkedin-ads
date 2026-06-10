@@ -96,3 +96,25 @@ def test_paginate_multiple_pages():
     with patch("linkedin_ads.make_request", side_effect=[page1, page2]):
         result = paginate("adAccounts", "fake_token")
     assert len(result) == 150
+
+
+def test_fetch_ad_accounts():
+    from linkedin_ads import fetch_ad_accounts
+    mock_accounts = [
+        {"id": "urn:li:sponsoredAccount:111", "name": "Test Account", "status": "ACTIVE", "currency": "USD", "type": "ENTERPRISE"}
+    ]
+    with patch("linkedin_ads.paginate", return_value=mock_accounts):
+        result = fetch_ad_accounts("fake_token")
+    assert len(result) == 1
+    assert result[0]["name"] == "Test Account"
+
+
+def test_fetch_campaigns():
+    from linkedin_ads import fetch_campaigns
+    mock_campaigns = [
+        {"id": "urn:li:sponsoredCampaign:999", "name": "Campaign A", "status": "ACTIVE"}
+    ]
+    with patch("linkedin_ads.paginate", return_value=mock_campaigns):
+        result = fetch_campaigns("fake_token", "111")
+    assert len(result) == 1
+    assert result[0]["name"] == "Campaign A"

@@ -183,3 +183,41 @@ def paginate(endpoint: str, token: str, params: dict = None) -> list:
             break
         params["start"] += len(elements)
     return all_elements
+
+
+# --- Data fetchers ---
+
+def fetch_ad_accounts(token: str) -> list:
+    print("Fetching ad accounts...")
+    params = {
+        "q": "search",
+        "search.status.values[0]": "ACTIVE",
+        "fields": "id,name,status,currency,type",
+    }
+    accounts = paginate("adAccounts", token, params)
+    print(f"  Found {len(accounts)} active ad accounts")
+    return accounts
+
+
+def fetch_campaign_groups(token: str, account_id: str) -> list:
+    print(f"  Fetching campaign groups for account {account_id}...")
+    account_urn = f"urn:li:sponsoredAccount:{account_id}"
+    params = {
+        "q": "search",
+        "search.account": account_urn,
+    }
+    groups = paginate("adCampaignGroups", token, params)
+    print(f"    Found {len(groups)} campaign groups")
+    return groups
+
+
+def fetch_campaigns(token: str, account_id: str) -> list:
+    print(f"  Fetching campaigns for account {account_id}...")
+    account_urn = f"urn:li:sponsoredAccount:{account_id}"
+    params = {
+        "q": "search",
+        "search.account.values[0]": account_urn,
+    }
+    campaigns = paginate("adCampaigns", token, params)
+    print(f"    Found {len(campaigns)} campaigns")
+    return campaigns
