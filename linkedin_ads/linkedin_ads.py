@@ -3,7 +3,7 @@ import os
 import secrets
 import time
 import urllib.parse
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -234,7 +234,7 @@ COMPANY_ENGAGEMENT_FIELDS = "impressions,clicks,costInLocalCurrency,pivotValues"
 
 
 def _build_date_range_param() -> str:
-    end = datetime.utcnow()
+    end = datetime.now(timezone.utc)
     start = end - timedelta(days=30)
     return (
         f"(start:(year:{start.year},month:{start.month},day:{start.day}),"
