@@ -154,9 +154,11 @@ def make_request(method: str, endpoint: str, token: str, params: dict = None, js
         try:
             resp = requests.request(method, url, headers=headers, params=params, json=json_data)
             if resp.status_code == 429:
-                wait = 2 ** attempt
-                print(f"  Rate limited (429). Waiting {wait}s before retry {attempt + 1}/{MAX_RETRIES}...")
-                time.sleep(wait)
+                if attempt < MAX_RETRIES - 1:
+                    retry_after = resp.headers.get("Retry-After")
+                    wait = int(retry_after) if retry_after else 2 ** attempt
+                    print(f"  Rate limited (429). Waiting {wait}s before retry {attempt + 1}/{MAX_RETRIES}...")
+                    time.sleep(wait)
                 continue
             resp.raise_for_status()
             return resp.json()
