@@ -1,0 +1,32 @@
+[
+  {
+    "test": false,
+    "notifiedOnCreativeRejection": false,
+    "notifiedOnNewFeaturesEnabled": false,
+    "notifiedOnEndOfCampaign": false,
+    "servingStatuses": [
+      "RUNNABLE"
+    ],
+    "notifiedOnCampaignOptimization": false,
+    "type": "BUSINESS",
+    "version": {
+      "versionTag": "25"
+    },
+    "reference": "urn:li:organization:104655185",
+    "notifiedOnCreativeApproval": false,
+    "changeAuditStamps": {
+      "created": {
+        "actor": "urn:li:unknown:0",
+        "time": 1733724207000
+      },
+      "lastModified": {
+        "actor": "urn:li:unknown:0",
+        "time": 1780463005024
+      }
+    },
+    "name": "Aiseberg",
+    "currency": "USD",
+    "id": 514146109,
+    "status": "ACTIVE"
+  }
+]

@@ -48,8 +48,9 @@ def test_make_request_success():
     from linkedin_ads import make_request
     mock_resp = MagicMock()
     mock_resp.status_code = 200
+    mock_resp.ok = True
     mock_resp.json.return_value = {"elements": [{"id": "1"}]}
-    with patch("linkedin_ads.requests.request", return_value=mock_resp):
+    with patch("linkedin_ads._http_session.send", return_value=mock_resp):
         result = make_request("GET", "adAccounts", "fake_token")
     assert result == {"elements": [{"id": "1"}]}
 
@@ -58,12 +59,14 @@ def test_make_request_retries_on_429():
     from linkedin_ads import make_request
     rate_limit_resp = MagicMock()
     rate_limit_resp.status_code = 429
+    rate_limit_resp.headers = {}
 
     success_resp = MagicMock()
     success_resp.status_code = 200
+    success_resp.ok = True
     success_resp.json.return_value = {"elements": []}
 
-    with patch("linkedin_ads.requests.request", side_effect=[rate_limit_resp, success_resp]):
+    with patch("linkedin_ads._http_session.send", side_effect=[rate_limit_resp, success_resp]):
         with patch("linkedin_ads.time.sleep") as mock_sleep:
             result = make_request("GET", "adAccounts", "fake_token")
     mock_sleep.assert_called_once_with(1)
@@ -74,8 +77,9 @@ def test_make_request_raises_after_max_retries():
     from linkedin_ads import make_request
     rate_limit_resp = MagicMock()
     rate_limit_resp.status_code = 429
+    rate_limit_resp.headers = {}
 
-    with patch("linkedin_ads.requests.request", return_value=rate_limit_resp):
+    with patch("linkedin_ads._http_session.send", return_value=rate_limit_resp):
         with patch("linkedin_ads.time.sleep"):
             with pytest.raises(Exception, match="Max retries exceeded"):
                 make_request("GET", "adAccounts", "fake_token")
@@ -114,10 +118,14 @@ def test_fetch_campaigns():
     mock_campaigns = [
         {"id": "urn:li:sponsoredCampaign:999", "name": "Campaign A", "status": "ACTIVE"}
     ]
-    with patch("linkedin_ads.paginate", return_value=mock_campaigns):
+    with patch("linkedin_ads.paginate", return_value=mock_campaigns) as mock_pag:
         result = fetch_campaigns("fake_token", "111")
     assert len(result) == 1
     assert result[0]["name"] == "Campaign A"
+    mock_pag.assert_called_once_with(
+        "adCampaigns", "fake_token",
+        {"q": "search", "search.account.values[0]": "urn:li:sponsoredAccount:111"}
+    )
 
 
 def test_fetch_campaign_groups():
@@ -131,7 +139,7 @@ def test_fetch_campaign_groups():
     assert result[0]["name"] == "Group A"
     mock_pag.assert_called_once_with(
         "adCampaignGroups", "fake_token",
-        {"q": "search", "search.account": "urn:li:sponsoredAccount:111"}
+        {"q": "search", "search.account.values[0]": "urn:li:sponsoredAccount:111"}
     )
 
 

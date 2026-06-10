@@ -1,0 +1,5330 @@
+[
+  {
+    "account_id": "514146109",
+    "campaign_groups": [
+      {
+        "runSchedule": {
+          "start": 1733724336589,
+          "end": 1738367100000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1733724336000
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763571835247
+          }
+        },
+        "name": "Test - Linkedin",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 726047713,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_CONVERSION",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1733724207512
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1733724207000
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1766833849165
+          }
+        },
+        "name": "New Campaign Group",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 726082653,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1757097422087
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1757097422100
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763571834070
+          }
+        },
+        "name": "Boost_Post_Engagement_Sep 5, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 765800243,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1757097433756
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1757097433770
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763571832977
+          }
+        },
+        "name": "Boost_Post_Engagement_Sep 5, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 765800253,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1757352246647
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1757352246670
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1757352246670
+          }
+        },
+        "name": "Accelerate Campaign Group",
+        "servingStatuses": [
+          "RUNNABLE"
+        ],
+        "backfilled": false,
+        "id": 765982263,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "ACTIVE"
+      },
+      {
+        "runSchedule": {
+          "start": 1761565879610
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1761565879625
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763571836969
+          }
+        },
+        "name": "Boost_Event_Engagement_Oct 27, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 778801323,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1761561325849
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1761561325866
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763571838123
+          }
+        },
+        "name": "Boost_Event_Brand Awareness_Oct 27, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 778920863,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1761590336002
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1761590336021
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763571840701
+          }
+        },
+        "name": "Boost_Event_Engagement_Oct 27, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 778933303,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1764091324394,
+          "end": 1767224700000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764091324406
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1767225601093
+          }
+        },
+        "name": "New Role campaign",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 793290523,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_CONVERSION",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1764674438047,
+          "end": 1767311100000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764674438069
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1767310201022
+          }
+        },
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "100"
+        },
+        "name": "Hiring PMM ",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 793653713,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1764829283255,
+          "end": 1767483900000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764829283270
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1767483001043
+          }
+        },
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "100"
+        },
+        "name": "Hiring PMM ",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 798011083,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_CONVERSION",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1765477277583
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1765477277610
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1766833841540
+          }
+        },
+        "name": "Boost_Post_Website Visits_Dec 11, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 798760043,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1763570902902,
+          "end": 1766360700000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763570902916
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1766359801061
+          }
+        },
+        "name": "Chicago PMM",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 800707264,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1765810173230
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1765810173247
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1766833845562
+          }
+        },
+        "name": "Boost_Post_Website Visits_Dec 15, 2025",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 801112403,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1767681442251,
+          "end": 1771631100000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1767681442271
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1771630201023
+          }
+        },
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "100"
+        },
+        "name": "Beta release - Jan 7th",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 801698933,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "LEAD_GENERATION",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1769537328743
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1769537328764
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429734392
+          }
+        },
+        "name": "Boost_Post_Engagement_Jan 27, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 812692843,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1770010734117,
+          "end": 1772667900000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1770010734142
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429735164
+          }
+        },
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "100"
+        },
+        "name": "Framework 1 - systems",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 815490533,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_CONVERSION",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1772127652305
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1772127652322
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429735924
+          }
+        },
+        "name": "Boost_Post_Engagement_Feb 26, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 851421683,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1773121178256
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1773121178279
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429736594
+          }
+        },
+        "name": "PMM ad group",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 904803313,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1773121540389
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1773121540414
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429737301
+          }
+        },
+        "name": "Brand awareness/Website visits - PMM - March",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 904901583,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1773313957901
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1773313957924
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429737972
+          }
+        },
+        "name": "Boost_Post_Website Visits_Mar 12, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 905309873,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1774328959379
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1774328959406
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429738602
+          }
+        },
+        "name": "Boost_Post_Engagement_Mar 24, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 908418433,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "budgetOptimization": {
+          "budgetOptimizationStrategy": "DYNAMIC",
+          "bidStrategy": "COST_CAP"
+        },
+        "runSchedule": {
+          "start": 1774514888830
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1774514888849
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429740375
+          }
+        },
+        "test": false,
+        "dailyBudget": "50",
+        "name": "followers",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 910400803,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "ENGAGEMENT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1774514661846
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1774514661862
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429741065
+          }
+        },
+        "name": "Boost_Post_Engagement_Mar 26, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 911900893,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1775067263514
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775067263538
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462535868
+          }
+        },
+        "name": "Boost_Post_Video Views_Apr 1, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 912521083,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1775652268906
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775652268921
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462536675
+          }
+        },
+        "name": "Boost_Post_Engagement_Apr 8, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 922802223,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1775861264200
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775861264215
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429745535
+          }
+        },
+        "name": "Boost_Post_Engagement_Apr 10, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 923513693,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "budgetOptimization": {
+          "budgetOptimizationStrategy": "DYNAMIC",
+          "bidStrategy": "MAXIMUM_DELIVERY"
+        },
+        "runSchedule": {
+          "start": 1775742961208
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775742961227
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462537461
+          }
+        },
+        "test": false,
+        "dailyBudget": "30",
+        "name": "Aisepedia PME Drop",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 923807933,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_CONVERSION",
+        "status": "PAUSED"
+      },
+      {
+        "budgetOptimization": {
+          "budgetOptimizationStrategy": "DYNAMIC",
+          "bidStrategy": "MAXIMUM_DELIVERY"
+        },
+        "runSchedule": {
+          "start": 1775733190508
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775733190529
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429747795
+          }
+        },
+        "test": false,
+        "dailyBudget": "30",
+        "name": "Ad for Aisepedia drop",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 923906803,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1776450446363
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1776450446378
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777429748691
+          }
+        },
+        "name": "Boost_Post_Engagement_Apr 17, 2026",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 977808403,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "budgetOptimization": {
+          "budgetOptimizationStrategy": "DYNAMIC",
+          "bidStrategy": "MAXIMUM_DELIVERY"
+        },
+        "runSchedule": {
+          "start": 1778842176314
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1778842176335
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1779099930580
+          }
+        },
+        "test": false,
+        "dailyBudget": "30",
+        "name": "test",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 1064311013,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "budgetOptimization": {
+          "budgetOptimizationStrategy": "DYNAMIC",
+          "bidStrategy": "MAXIMUM_DELIVERY"
+        },
+        "runSchedule": {
+          "start": 1778843442464
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1778843442481
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1779099931413
+          }
+        },
+        "test": false,
+        "dailyBudget": "30",
+        "name": "test",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 1068111493,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1779094426924,
+          "end": 1781739900000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1779094426945
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780401109899
+          }
+        },
+        "name": "Test 1",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 1071900083,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      },
+      {
+        "runSchedule": {
+          "start": 1780398733494,
+          "end": 1783035900000
+        },
+        "test": false,
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780398733532
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462505621
+          }
+        },
+        "name": "Test - brand awareness",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "backfilled": false,
+        "id": 1117300003,
+        "account": "urn:li:sponsoredAccount:514146109",
+        "objectiveType": "WEBSITE_VISIT",
+        "status": "PAUSED"
+      }
+    ],
+    "campaigns": [
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "100"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:groups": [
+                    "urn:li:group:48316"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1757097433755,
+          "end": 1757202300000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1757097434140
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 419888753,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "SPONSORED_UPDATE_NATIVE_DOCUMENT",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "9"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:765800253",
+        "politicalIntent": "NOT_POLITICAL",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "5.22"
+        },
+        "name": "Boost Post Engagement September 5, 2025 at 6:33 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1181",
+                    "urn:li:title:12799",
+                    "urn:li:title:15728",
+                    "urn:li:title:1575",
+                    "urn:li:title:198",
+                    "urn:li:title:22499",
+                    "urn:li:title:23380",
+                    "urn:li:title:2362",
+                    "urn:li:title:2381",
+                    "urn:li:title:26",
+                    "urn:li:title:27",
+                    "urn:li:title:279",
+                    "urn:li:title:344",
+                    "urn:li:title:448",
+                    "urn:li:title:560",
+                    "urn:li:title:590",
+                    "urn:li:title:63",
+                    "urn:li:title:70",
+                    "urn:li:title:7819"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:1855",
+                    "urn:li:industry:3102",
+                    "urn:li:industry:3103",
+                    "urn:li:industry:3104",
+                    "urn:li:industry:3105",
+                    "urn:li:industry:3107",
+                    "urn:li:industry:3130",
+                    "urn:li:industry:4",
+                    "urn:li:industry:6"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:staffCountRanges": [
+                    "urn:li:staffCountRange:(2,10)",
+                    "urn:li:staffCountRange:(11,50)",
+                    "urn:li:staffCountRange:(51,200)",
+                    "urn:li:staffCountRange:(201,500)",
+                    "urn:li:staffCountRange:(501,1000)",
+                    "urn:li:staffCountRange:(1001,5000)",
+                    "urn:li:staffCountRange:(5001,10000)",
+                    "urn:li:staffCountRange:(10001,2147483647)"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1760313600000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1760353188807
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 435471233,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "SINGLE_VIDEO",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "version": {
+          "versionTag": "8"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:765982263",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "250"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.58"
+        },
+        "name": "Website visits - Oct 13, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "DRAFT"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:6093",
+                    "urn:li:title:8374"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:locations": [
+                "urn:li:geo:100901743",
+                "urn:li:geo:90000084"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1761523200000
+        },
+        "optimizationTargetType": "MAX_LEAD",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1761565942589
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": false,
+        "id": 440351203,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "8"
+        },
+        "objectiveType": "LEAD_GENERATION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:778801323",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "150"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "3.57"
+        },
+        "name": "San Francisco event",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "DRAFT"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "171"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:118",
+                    "urn:li:industry:12",
+                    "urn:li:industry:126",
+                    "urn:li:industry:135",
+                    "urn:li:industry:14",
+                    "urn:li:industry:15",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1644",
+                    "urn:li:industry:1737",
+                    "urn:li:industry:1770",
+                    "urn:li:industry:2081",
+                    "urn:li:industry:2194",
+                    "urn:li:industry:24",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:2468",
+                    "urn:li:industry:25",
+                    "urn:li:industry:3",
+                    "urn:li:industry:3101",
+                    "urn:li:industry:3105",
+                    "urn:li:industry:3107",
+                    "urn:li:industry:3130",
+                    "urn:li:industry:3133",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:36",
+                    "urn:li:industry:4",
+                    "urn:li:industry:42",
+                    "urn:li:industry:47",
+                    "urn:li:industry:5",
+                    "urn:li:industry:52",
+                    "urn:li:industry:6",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:871",
+                    "urn:li:industry:9",
+                    "urn:li:industry:901",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:6093",
+                    "urn:li:title:8374"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:100901743",
+                    "urn:li:geo:90000084"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:locations": [
+                "urn:li:geo:102393603",
+                "urn:li:geo:91000000",
+                "urn:li:geo:91000014"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1761590336002,
+          "end": 1762759800000
+        },
+        "optimizationTargetType": "CAP_COST_AND_MAXIMIZE_CLICKS",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1761590336430
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": false,
+        "id": 440374443,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "SPONSORED_UPDATE_EVENT",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "20"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:778933303",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "4.5"
+        },
+        "name": "Boost Event Engagement October 27, 2025 at 6:22 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "150"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:6093",
+                    "urn:li:title:8374"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:100901743",
+                    "urn:li:geo:103380759",
+                    "urn:li:geo:90000084"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:locations": [
+                "urn:li:geo:102393603",
+                "urn:li:geo:91000000",
+                "urn:li:geo:91000014"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1761935400000,
+          "end": 1762759800000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1761934812592
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": false,
+        "id": 440753453,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "SPONSORED_UPDATE_EVENT",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "14"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:778933303",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "6.97"
+        },
+        "name": "event 2 Boost Event Engagement October 27, 2025 at 6:22 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:1111",
+                    "urn:li:skill:11979",
+                    "urn:li:skill:12499",
+                    "urn:li:skill:12885",
+                    "urn:li:skill:1608",
+                    "urn:li:skill:1631",
+                    "urn:li:skill:1836",
+                    "urn:li:skill:2269",
+                    "urn:li:skill:256",
+                    "urn:li:skill:2805",
+                    "urn:li:skill:29322",
+                    "urn:li:skill:29542",
+                    "urn:li:skill:30685",
+                    "urn:li:skill:33737",
+                    "urn:li:skill:34170",
+                    "urn:li:skill:34347",
+                    "urn:li:skill:34544",
+                    "urn:li:skill:3573",
+                    "urn:li:skill:35789",
+                    "urn:li:skill:36532",
+                    "urn:li:skill:43974",
+                    "urn:li:skill:47102",
+                    "urn:li:skill:5052",
+                    "urn:li:skill:5120",
+                    "urn:li:skill:57200",
+                    "urn:li:skill:5740",
+                    "urn:li:skill:6035",
+                    "urn:li:skill:61795",
+                    "urn:li:skill:626",
+                    "urn:li:skill:786",
+                    "urn:li:skill:8462"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interests": [
+                    "urn:li:interest:122251",
+                    "urn:li:interest:12438",
+                    "urn:li:interest:14088",
+                    "urn:li:interest:1536066",
+                    "urn:li:interest:1537850",
+                    "urn:li:interest:1538610",
+                    "urn:li:interest:1539602",
+                    "urn:li:interest:1893746",
+                    "urn:li:interest:2134698",
+                    "urn:li:interest:2454426",
+                    "urn:li:interest:256411",
+                    "urn:li:interest:26052",
+                    "urn:li:interest:2690618",
+                    "urn:li:interest:308",
+                    "urn:li:interest:71619",
+                    "urn:li:interest:72435",
+                    "urn:li:interest:72579",
+                    "urn:li:interest:73019",
+                    "urn:li:interest:74691",
+                    "urn:li:interest:79475",
+                    "urn:li:interest:80731",
+                    "urn:li:interest:81131",
+                    "urn:li:interest:86483",
+                    "urn:li:interest:96123",
+                    "urn:li:interest:spc1497",
+                    "urn:li:interest:spc1745",
+                    "urn:li:interest:spc1909",
+                    "urn:li:interest:spc1926",
+                    "urn:li:interest:spc1934"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:10642",
+                    "urn:li:title:11713",
+                    "urn:li:title:12143",
+                    "urn:li:title:13934",
+                    "urn:li:title:1394",
+                    "urn:li:title:14993",
+                    "urn:li:title:1507",
+                    "urn:li:title:15600",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:2415",
+                    "urn:li:title:2622",
+                    "urn:li:title:26452",
+                    "urn:li:title:26583",
+                    "urn:li:title:270",
+                    "urn:li:title:30225",
+                    "urn:li:title:344",
+                    "urn:li:title:410",
+                    "urn:li:title:42",
+                    "urn:li:title:4636",
+                    "urn:li:title:4656",
+                    "urn:li:title:4765",
+                    "urn:li:title:555",
+                    "urn:li:title:5690",
+                    "urn:li:title:590",
+                    "urn:li:title:671",
+                    "urn:li:title:6940",
+                    "urn:li:title:716",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:100901743",
+                    "urn:li:geo:103380759",
+                    "urn:li:geo:90000084"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1762197339222,
+          "end": 1764891900000
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1762195366091
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 440918633,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "version": {
+          "versionTag": "14"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:765982263",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "40"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.58"
+        },
+        "name": "Website conversions - Nov 4, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:11979",
+                    "urn:li:skill:12499",
+                    "urn:li:skill:1631",
+                    "urn:li:skill:1836",
+                    "urn:li:skill:20037",
+                    "urn:li:skill:2269",
+                    "urn:li:skill:2458",
+                    "urn:li:skill:2759",
+                    "urn:li:skill:27600",
+                    "urn:li:skill:296",
+                    "urn:li:skill:3203",
+                    "urn:li:skill:32065",
+                    "urn:li:skill:34544",
+                    "urn:li:skill:35789",
+                    "urn:li:skill:36937",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:41862",
+                    "urn:li:skill:42551",
+                    "urn:li:skill:43974",
+                    "urn:li:skill:44188",
+                    "urn:li:skill:46741",
+                    "urn:li:skill:46793",
+                    "urn:li:skill:56460",
+                    "urn:li:skill:57200",
+                    "urn:li:skill:58236",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:61795",
+                    "urn:li:skill:626",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786",
+                    "urn:li:skill:8462"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:10642",
+                    "urn:li:title:10948",
+                    "urn:li:title:11542",
+                    "urn:li:title:11713",
+                    "urn:li:title:14292",
+                    "urn:li:title:14993",
+                    "urn:li:title:1507",
+                    "urn:li:title:15147",
+                    "urn:li:title:15471",
+                    "urn:li:title:15600",
+                    "urn:li:title:1575",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:2415",
+                    "urn:li:title:26452",
+                    "urn:li:title:26583",
+                    "urn:li:title:26585",
+                    "urn:li:title:27",
+                    "urn:li:title:279",
+                    "urn:li:title:30225",
+                    "urn:li:title:31395",
+                    "urn:li:title:344",
+                    "urn:li:title:410",
+                    "urn:li:title:42",
+                    "urn:li:title:448",
+                    "urn:li:title:4656",
+                    "urn:li:title:4765",
+                    "urn:li:title:555",
+                    "urn:li:title:5690",
+                    "urn:li:title:716",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:102",
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:137",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:5",
+                    "urn:li:industry:6",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103112676",
+                    "urn:li:geo:104396020",
+                    "urn:li:geo:90000014"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:locations": [
+                "urn:li:geo:100506914",
+                "urn:li:geo:102713980",
+                "urn:li:geo:91000000",
+                "urn:li:geo:91000002",
+                "urn:li:geo:91000007"
+              ],
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1763571795932,
+          "end": 1764027900000
+        },
+        "optimizationTargetType": "CAP_COST_AND_MAXIMIZE_CLICKS",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1763570961601
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 447480174,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "13"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:800707264",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "50"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2"
+        },
+        "name": "Website visits - Nov 19, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:1417",
+                    "urn:li:skill:1631",
+                    "urn:li:skill:1836",
+                    "urn:li:skill:20037",
+                    "urn:li:skill:20525",
+                    "urn:li:skill:23530",
+                    "urn:li:skill:27600",
+                    "urn:li:skill:29542",
+                    "urn:li:skill:296",
+                    "urn:li:skill:30608",
+                    "urn:li:skill:3203",
+                    "urn:li:skill:34544",
+                    "urn:li:skill:3565",
+                    "urn:li:skill:35789",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:43974",
+                    "urn:li:skill:46741",
+                    "urn:li:skill:4699",
+                    "urn:li:skill:56053",
+                    "urn:li:skill:56460",
+                    "urn:li:skill:57200",
+                    "urn:li:skill:58236",
+                    "urn:li:skill:59513",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:61795",
+                    "urn:li:skill:626",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786",
+                    "urn:li:skill:8462",
+                    "urn:li:skill:8535",
+                    "urn:li:skill:8949"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:10642",
+                    "urn:li:title:11713",
+                    "urn:li:title:14292",
+                    "urn:li:title:14993",
+                    "urn:li:title:1507",
+                    "urn:li:title:15147",
+                    "urn:li:title:15471",
+                    "urn:li:title:1575",
+                    "urn:li:title:15908",
+                    "urn:li:title:16634",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:2415",
+                    "urn:li:title:2525",
+                    "urn:li:title:26452",
+                    "urn:li:title:26583",
+                    "urn:li:title:26585",
+                    "urn:li:title:27",
+                    "urn:li:title:279",
+                    "urn:li:title:30221",
+                    "urn:li:title:30225",
+                    "urn:li:title:344",
+                    "urn:li:title:410",
+                    "urn:li:title:42",
+                    "urn:li:title:4765",
+                    "urn:li:title:555",
+                    "urn:li:title:5690",
+                    "urn:li:title:5866",
+                    "urn:li:title:716",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:112",
+                    "urn:li:industry:118",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:2081",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3099",
+                    "urn:li:industry:3100",
+                    "urn:li:industry:3130",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:4",
+                    "urn:li:industry:41",
+                    "urn:li:industry:47",
+                    "urn:li:industry:5",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1764092256465,
+          "end": 1764978300000
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764091450526
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 455189113,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "13"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:793290523",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "20"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.58"
+        },
+        "name": "New role ad1 - Nov 25, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:11979",
+                    "urn:li:skill:12772",
+                    "urn:li:skill:1417",
+                    "urn:li:skill:1631",
+                    "urn:li:skill:1836",
+                    "urn:li:skill:2269",
+                    "urn:li:skill:23530",
+                    "urn:li:skill:2506",
+                    "urn:li:skill:2759",
+                    "urn:li:skill:296",
+                    "urn:li:skill:3203",
+                    "urn:li:skill:32065",
+                    "urn:li:skill:34544",
+                    "urn:li:skill:35789",
+                    "urn:li:skill:36937",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:41862",
+                    "urn:li:skill:41901",
+                    "urn:li:skill:42551",
+                    "urn:li:skill:43974",
+                    "urn:li:skill:44188",
+                    "urn:li:skill:46741",
+                    "urn:li:skill:56460",
+                    "urn:li:skill:57200",
+                    "urn:li:skill:58236",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:61795",
+                    "urn:li:skill:626",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786",
+                    "urn:li:skill:8462"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:137",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1855",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3102",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:6",
+                    "urn:li:industry:69",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:jobFunctions": [
+                    "urn:li:function:4",
+                    "urn:li:function:6",
+                    "urn:li:function:15",
+                    "urn:li:function:19",
+                    "urn:li:function:25"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1764093091242,
+          "end": 1766706300000
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764092440672
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 455229433,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "version": {
+          "versionTag": "10"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:765982263",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "28"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.58"
+        },
+        "name": "New role ad2 - Nov 25, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:11713",
+                    "urn:li:title:1333",
+                    "urn:li:title:14292",
+                    "urn:li:title:15147",
+                    "urn:li:title:15471",
+                    "urn:li:title:1575",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:21383",
+                    "urn:li:title:23380",
+                    "urn:li:title:2415",
+                    "urn:li:title:25738",
+                    "urn:li:title:26452",
+                    "urn:li:title:26585",
+                    "urn:li:title:27",
+                    "urn:li:title:279",
+                    "urn:li:title:30221",
+                    "urn:li:title:30225",
+                    "urn:li:title:344",
+                    "urn:li:title:410",
+                    "urn:li:title:42",
+                    "urn:li:title:448",
+                    "urn:li:title:4656",
+                    "urn:li:title:4765",
+                    "urn:li:title:555",
+                    "urn:li:title:5690",
+                    "urn:li:title:63",
+                    "urn:li:title:70",
+                    "urn:li:title:716",
+                    "urn:li:title:931",
+                    "urn:li:title:966",
+                    "urn:li:title:997"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:12499",
+                    "urn:li:skill:1631",
+                    "urn:li:skill:1836",
+                    "urn:li:skill:1839",
+                    "urn:li:skill:20037",
+                    "urn:li:skill:2269",
+                    "urn:li:skill:23530",
+                    "urn:li:skill:296",
+                    "urn:li:skill:30685",
+                    "urn:li:skill:3573",
+                    "urn:li:skill:35789",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:41576",
+                    "urn:li:skill:41862",
+                    "urn:li:skill:42551",
+                    "urn:li:skill:43974",
+                    "urn:li:skill:46741",
+                    "urn:li:skill:46793",
+                    "urn:li:skill:5455",
+                    "urn:li:skill:56053",
+                    "urn:li:skill:56460",
+                    "urn:li:skill:57200",
+                    "urn:li:skill:58236",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:61795",
+                    "urn:li:skill:626",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786",
+                    "urn:li:skill:8462",
+                    "urn:li:skill:8949"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:10",
+                    "urn:li:industry:102",
+                    "urn:li:industry:103",
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:137",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:42",
+                    "urn:li:industry:43",
+                    "urn:li:industry:46",
+                    "urn:li:industry:6",
+                    "urn:li:industry:68",
+                    "urn:li:industry:69",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1764633600000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764674772723
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 455706793,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "6"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:793653713",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "250"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.58"
+        },
+        "name": "Website visits - Dec 2, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "DRAFT"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:11542",
+                    "urn:li:title:11713",
+                    "urn:li:title:14175",
+                    "urn:li:title:14292",
+                    "urn:li:title:14993",
+                    "urn:li:title:15147",
+                    "urn:li:title:15471",
+                    "urn:li:title:1575",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:23380",
+                    "urn:li:title:2415",
+                    "urn:li:title:26452",
+                    "urn:li:title:26585",
+                    "urn:li:title:27",
+                    "urn:li:title:279",
+                    "urn:li:title:30221",
+                    "urn:li:title:30225",
+                    "urn:li:title:344",
+                    "urn:li:title:410",
+                    "urn:li:title:42",
+                    "urn:li:title:4656",
+                    "urn:li:title:4765",
+                    "urn:li:title:555",
+                    "urn:li:title:5690",
+                    "urn:li:title:63",
+                    "urn:li:title:6339",
+                    "urn:li:title:70",
+                    "urn:li:title:716",
+                    "urn:li:title:7169",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:1417",
+                    "urn:li:skill:15166",
+                    "urn:li:skill:1631",
+                    "urn:li:skill:1836",
+                    "urn:li:skill:20037",
+                    "urn:li:skill:2269",
+                    "urn:li:skill:23530",
+                    "urn:li:skill:2759",
+                    "urn:li:skill:296",
+                    "urn:li:skill:3203",
+                    "urn:li:skill:32354",
+                    "urn:li:skill:34544",
+                    "urn:li:skill:36532",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:41901",
+                    "urn:li:skill:42551",
+                    "urn:li:skill:43974",
+                    "urn:li:skill:46741",
+                    "urn:li:skill:46793",
+                    "urn:li:skill:5455",
+                    "urn:li:skill:56460",
+                    "urn:li:skill:57200",
+                    "urn:li:skill:58236",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:626",
+                    "urn:li:skill:6626",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786",
+                    "urn:li:skill:8005",
+                    "urn:li:skill:8949"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:102",
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:137",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:5",
+                    "urn:li:industry:6",
+                    "urn:li:industry:69",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1764806400000
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1764829794644
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 455883453,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "6"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:798011083",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "150"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.58"
+        },
+        "name": "Website conversions - Dec 4, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "DRAFT"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:10968",
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:14993",
+                    "urn:li:title:15471",
+                    "urn:li:title:1575",
+                    "urn:li:title:1867",
+                    "urn:li:title:1898",
+                    "urn:li:title:26452",
+                    "urn:li:title:26583",
+                    "urn:li:title:26585",
+                    "urn:li:title:27",
+                    "urn:li:title:279",
+                    "urn:li:title:30225",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:5856",
+                    "urn:li:title:6093",
+                    "urn:li:title:63",
+                    "urn:li:title:8374",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:137",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:5",
+                    "urn:li:industry:6",
+                    "urn:li:industry:69",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:dynamicSegments": [
+                    "urn:li:adSegment:64111026"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1765477777231
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1765477317002
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 460588143,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_AUDIENCE_COUNT_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "49"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:798760043",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "20"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "16.5"
+        },
+        "name": "Website conversions - Dec 11, 2025",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "140"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:10968",
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:3053",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:5856",
+                    "urn:li:title:6093",
+                    "urn:li:title:8374"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1765810173230,
+          "end": 1766965500000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1765810173656
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 463032043,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "6"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:801112403",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "34.8"
+        },
+        "name": "Boost Post Website Visits December 15, 2025 at 2:47 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:11011",
+                    "urn:li:skill:12885",
+                    "urn:li:skill:15124",
+                    "urn:li:skill:17275",
+                    "urn:li:skill:1742",
+                    "urn:li:skill:20191",
+                    "urn:li:skill:21459",
+                    "urn:li:skill:2692",
+                    "urn:li:skill:27600",
+                    "urn:li:skill:3321",
+                    "urn:li:skill:33301",
+                    "urn:li:skill:3840",
+                    "urn:li:skill:42112",
+                    "urn:li:skill:42240",
+                    "urn:li:skill:43762",
+                    "urn:li:skill:55678",
+                    "urn:li:skill:57065",
+                    "urn:li:skill:5728",
+                    "urn:li:skill:58883",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:786"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:105",
+                    "urn:li:industry:114",
+                    "urn:li:industry:126",
+                    "urn:li:industry:137",
+                    "urn:li:industry:147",
+                    "urn:li:industry:1855",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1911",
+                    "urn:li:industry:1958",
+                    "urn:li:industry:3089",
+                    "urn:li:industry:3102",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:47",
+                    "urn:li:industry:5",
+                    "urn:li:industry:7",
+                    "urn:li:industry:76",
+                    "urn:li:industry:8",
+                    "urn:li:industry:94",
+                    "urn:li:industry:97",
+                    "urn:li:industry:98"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:yearsOfExperienceRanges": [
+                    "urn:li:yearsOfExperience:5",
+                    "urn:li:yearsOfExperience:12"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:seniorities": [
+                    "urn:li:seniority:6",
+                    "urn:li:seniority:4",
+                    "urn:li:seniority:5",
+                    "urn:li:seniority:7"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1767685083267
+        },
+        "optimizationTargetType": "MAX_LEAD",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1767681592941
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": false,
+        "id": 463435263,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "9"
+        },
+        "objectiveType": "LEAD_GENERATION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:801698933",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "20"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.09"
+        },
+        "name": "Lead generation - Jan 6, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interests": [
+                    "urn:li:interest:122251",
+                    "urn:li:interest:12438",
+                    "urn:li:interest:14088",
+                    "urn:li:interest:1536066",
+                    "urn:li:interest:1536266",
+                    "urn:li:interest:1538610",
+                    "urn:li:interest:1539602",
+                    "urn:li:interest:1893746",
+                    "urn:li:interest:2134698",
+                    "urn:li:interest:256411",
+                    "urn:li:interest:26052",
+                    "urn:li:interest:71619",
+                    "urn:li:interest:74459",
+                    "urn:li:interest:79475",
+                    "urn:li:interest:81131",
+                    "urn:li:interest:96123",
+                    "urn:li:interest:spc1504",
+                    "urn:li:interest:spc1745",
+                    "urn:li:interest:spc1909"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:102",
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:1855",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1911",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:43",
+                    "urn:li:industry:6",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:11713",
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:16634",
+                    "urn:li:title:1867",
+                    "urn:li:title:198",
+                    "urn:li:title:26452",
+                    "urn:li:title:31189",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:42",
+                    "urn:li:title:5324",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8374"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:yearsOfExperienceRanges": [
+                    "urn:li:yearsOfExperience:5",
+                    "urn:li:yearsOfExperience:12"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:staffCountRanges": [
+                    "urn:li:staffCountRange:(201,500)",
+                    "urn:li:staffCountRange:(501,1000)",
+                    "urn:li:staffCountRange:(1001,5000)",
+                    "urn:li:staffCountRange:(5001,10000)",
+                    "urn:li:staffCountRange:(10001,2147483647)"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1768505435070,
+          "end": 1771112700000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1768505003259
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 467970623,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED"
+        ],
+        "version": {
+          "versionTag": "8"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:765982263",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "20"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.84"
+        },
+        "name": "Website visits - Jan 16, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "140"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:10",
+                    "urn:li:industry:101",
+                    "urn:li:industry:1029",
+                    "urn:li:industry:104",
+                    "urn:li:industry:1042",
+                    "urn:li:industry:11",
+                    "urn:li:industry:116",
+                    "urn:li:industry:118",
+                    "urn:li:industry:1187",
+                    "urn:li:industry:12",
+                    "urn:li:industry:123",
+                    "urn:li:industry:1319",
+                    "urn:li:industry:132",
+                    "urn:li:industry:134",
+                    "urn:li:industry:138",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1409",
+                    "urn:li:industry:1445",
+                    "urn:li:industry:147",
+                    "urn:li:industry:148",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:17",
+                    "urn:li:industry:1737",
+                    "urn:li:industry:1770",
+                    "urn:li:industry:1912",
+                    "urn:li:industry:1916",
+                    "urn:li:industry:2063",
+                    "urn:li:industry:2081",
+                    "urn:li:industry:2194",
+                    "urn:li:industry:2240",
+                    "urn:li:industry:2358",
+                    "urn:li:industry:2366",
+                    "urn:li:industry:2468",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3",
+                    "urn:li:industry:3089",
+                    "urn:li:industry:31",
+                    "urn:li:industry:3102",
+                    "urn:li:industry:3103",
+                    "urn:li:industry:3104",
+                    "urn:li:industry:3105",
+                    "urn:li:industry:3106",
+                    "urn:li:industry:3107",
+                    "urn:li:industry:3127",
+                    "urn:li:industry:3129",
+                    "urn:li:industry:3133",
+                    "urn:li:industry:32",
+                    "urn:li:industry:3242",
+                    "urn:li:industry:3248",
+                    "urn:li:industry:3250",
+                    "urn:li:industry:3251",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:332",
+                    "urn:li:industry:4",
+                    "urn:li:industry:406",
+                    "urn:li:industry:41",
+                    "urn:li:industry:419",
+                    "urn:li:industry:42",
+                    "urn:li:industry:45",
+                    "urn:li:industry:47",
+                    "urn:li:industry:5",
+                    "urn:li:industry:51",
+                    "urn:li:industry:53",
+                    "urn:li:industry:54",
+                    "urn:li:industry:59",
+                    "urn:li:industry:6",
+                    "urn:li:industry:68",
+                    "urn:li:industry:70",
+                    "urn:li:industry:709",
+                    "urn:li:industry:75",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:901",
+                    "urn:li:industry:91",
+                    "urn:li:industry:92",
+                    "urn:li:industry:93",
+                    "urn:li:industry:94",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:3053",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:5856",
+                    "urn:li:title:6093",
+                    "urn:li:title:8374"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1769537328742,
+          "end": 1770680700000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1769537329344
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 474113573,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "SPONSORED_UPDATE_NATIVE_DOCUMENT",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "7"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:812692843",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.54"
+        },
+        "name": "Boost Post Engagement January 27, 2026 at 6:00 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:1417",
+                    "urn:li:skill:17275",
+                    "urn:li:skill:1742",
+                    "urn:li:skill:2264",
+                    "urn:li:skill:2458",
+                    "urn:li:skill:2590",
+                    "urn:li:skill:2744",
+                    "urn:li:skill:2759",
+                    "urn:li:skill:38946",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:42112",
+                    "urn:li:skill:4227",
+                    "urn:li:skill:46227",
+                    "urn:li:skill:47008",
+                    "urn:li:skill:50323",
+                    "urn:li:skill:55678",
+                    "urn:li:skill:58883",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:6182",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:105",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:6",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:11713",
+                    "urn:li:title:1195",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:2415",
+                    "urn:li:title:26585",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:555",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8374",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:yearsOfExperienceRanges": [
+                    "urn:li:yearsOfExperience:5",
+                    "urn:li:yearsOfExperience:12"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:staffCountRanges": [
+                    "urn:li:staffCountRange:(201,500)",
+                    "urn:li:staffCountRange:(501,1000)",
+                    "urn:li:staffCountRange:(1001,5000)",
+                    "urn:li:staffCountRange:(5001,10000)",
+                    "urn:li:staffCountRange:(10001,2147483647)"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1770030895376
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1770030791348
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 474691613,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED"
+        ],
+        "version": {
+          "versionTag": "12"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:765982263",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "24"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "0.57"
+        },
+        "name": "Engagement - Feb 2, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:12885",
+                    "urn:li:skill:17275",
+                    "urn:li:skill:2264",
+                    "urn:li:skill:23734",
+                    "urn:li:skill:2458",
+                    "urn:li:skill:2590",
+                    "urn:li:skill:2744",
+                    "urn:li:skill:296",
+                    "urn:li:skill:3937",
+                    "urn:li:skill:42112",
+                    "urn:li:skill:4227",
+                    "urn:li:skill:46088",
+                    "urn:li:skill:50323",
+                    "urn:li:skill:55678",
+                    "urn:li:skill:56501",
+                    "urn:li:skill:58883",
+                    "urn:li:skill:58887",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:6182",
+                    "urn:li:skill:666",
+                    "urn:li:skill:786"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:11713",
+                    "urn:li:title:15471",
+                    "urn:li:title:15600",
+                    "urn:li:title:1575",
+                    "urn:li:title:1898",
+                    "urn:li:title:198",
+                    "urn:li:title:23380",
+                    "urn:li:title:2415",
+                    "urn:li:title:26452",
+                    "urn:li:title:26585",
+                    "urn:li:title:26622",
+                    "urn:li:title:30225",
+                    "urn:li:title:344",
+                    "urn:li:title:410",
+                    "urn:li:title:448",
+                    "urn:li:title:555",
+                    "urn:li:title:5690",
+                    "urn:li:title:6405",
+                    "urn:li:title:716",
+                    "urn:li:title:8374",
+                    "urn:li:title:9007"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:102",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1855",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1911",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:3242",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:6",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:yearsOfExperienceRanges": [
+                    "urn:li:yearsOfExperience:5",
+                    "urn:li:yearsOfExperience:12"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:staffCountRanges": [
+                    "urn:li:staffCountRange:(201,500)",
+                    "urn:li:staffCountRange:(501,1000)",
+                    "urn:li:staffCountRange:(1001,5000)",
+                    "urn:li:staffCountRange:(5001,10000)",
+                    "urn:li:staffCountRange:(10001,2147483647)"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1770012654898
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1770012243257
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 474820463,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "7"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:815490533",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "20"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "6.67"
+        },
+        "name": "Website conversions - Feb 2, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:skills": [
+                    "urn:li:skill:12885",
+                    "urn:li:skill:17275",
+                    "urn:li:skill:1742",
+                    "urn:li:skill:20191",
+                    "urn:li:skill:2264",
+                    "urn:li:skill:2458",
+                    "urn:li:skill:2590",
+                    "urn:li:skill:2744",
+                    "urn:li:skill:41576",
+                    "urn:li:skill:41770",
+                    "urn:li:skill:42112",
+                    "urn:li:skill:4227",
+                    "urn:li:skill:42715",
+                    "urn:li:skill:46227",
+                    "urn:li:skill:50323",
+                    "urn:li:skill:50352",
+                    "urn:li:skill:55678",
+                    "urn:li:skill:56501",
+                    "urn:li:skill:61432",
+                    "urn:li:skill:6182",
+                    "urn:li:skill:786"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:102",
+                    "urn:li:industry:11",
+                    "urn:li:industry:132",
+                    "urn:li:industry:1810",
+                    "urn:li:industry:1862",
+                    "urn:li:industry:1911",
+                    "urn:li:industry:1923",
+                    "urn:li:industry:2458",
+                    "urn:li:industry:3128",
+                    "urn:li:industry:4",
+                    "urn:li:industry:43",
+                    "urn:li:industry:5",
+                    "urn:li:industry:6",
+                    "urn:li:industry:69",
+                    "urn:li:industry:70",
+                    "urn:li:industry:8",
+                    "urn:li:industry:80",
+                    "urn:li:industry:96",
+                    "urn:li:industry:964",
+                    "urn:li:industry:97"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:jobFunctions": [
+                    "urn:li:function:4",
+                    "urn:li:function:6",
+                    "urn:li:function:15",
+                    "urn:li:function:20",
+                    "urn:li:function:19",
+                    "urn:li:function:25",
+                    "urn:li:function:26"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:staffCountRanges": [
+                    "urn:li:staffCountRange:(201,500)",
+                    "urn:li:staffCountRange:(501,1000)",
+                    "urn:li:staffCountRange:(1001,5000)",
+                    "urn:li:staffCountRange:(5001,10000)",
+                    "urn:li:staffCountRange:(10001,2147483647)"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:102713980"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:employers": [
+                "urn:li:organization:104655185"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1769990400000
+        },
+        "optimizationTargetType": "MAX_CONVERSION",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1770010761960
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 474880373,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "SINGLE_VIDEO",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD",
+          "CAMPAIGN_GROUP_END_DATE_HOLD"
+        ],
+        "version": {
+          "versionTag": "6"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:815490533",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "250"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.84"
+        },
+        "name": "Website conversions - Feb 2, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "DRAFT"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "140"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:groups": [
+                    "urn:li:group:4183830",
+                    "urn:li:group:4286870",
+                    "urn:li:group:48316"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1772127652304,
+          "end": 1773272700000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1772127652835
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 487523623,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "SPONSORED_UPDATE_NATIVE_DOCUMENT",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "6"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:851421683",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "2.66"
+        },
+        "name": "Boost Post Engagement February 26, 2026 at 5:40 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:3053",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1773146715446
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1773122488009
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 515725223,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "10"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:904901583",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "35"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "39.35"
+        },
+        "name": "Website visits - Mar 10, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1773225809067
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1773146826716
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 515911223,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "7"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:904901583",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "35"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "35.24"
+        },
+        "name": "Website visits - March 10 (2)",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "PAUSED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "140"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1773313957901,
+          "end": 1774482300000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1773313958373
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 588101353,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "5"
+        },
+        "objectiveType": "WEBSITE_VISIT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:905309873",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "35.77"
+        },
+        "name": "Boost Post Website Visits March 12, 2026 at 11:11 AM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "300"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:groups": [
+                    "urn:li:group:13947361",
+                    "urn:li:group:1786042",
+                    "urn:li:group:2103006",
+                    "urn:li:group:4183830",
+                    "urn:li:group:4286870",
+                    "urn:li:group:48316"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1774328959378,
+          "end": 1775519100000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1774328959904
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 588341033,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "6"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:908418433",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "5.43"
+        },
+        "name": "Boost Post Engagement March 24, 2026 at 5:05 AM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:3053",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1774514661845,
+          "end": 1775691900000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1774514662301
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 592200633,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "8"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:911900893",
+        "dailyBudget": {
+          "currencyCode": "USD",
+          "amount": "20"
+        },
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "7.35"
+        },
+        "name": "Boost Post Engagement March 26, 2026 at 8:43 AM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:titles": [
+                "urn:li:title:15"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "optimizationTargetType": "CAP_COST_AND_MAXIMIZE_CLICKS",
+        "runSchedule": {
+          "start": 1774514888830
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1774514983211
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1778681248315
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 593700663,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "7"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:910400803",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "10"
+        },
+        "name": "Engagement - Mar 26, 2026",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "ACTIVE"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "500"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1775067263513,
+          "end": 1776210300000
+        },
+        "optimizationTargetType": "MAX_VIDEO_VIEW",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775067264253
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462537906
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 595903363,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "SINGLE_VIDEO",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "8"
+        },
+        "objectiveType": "VIDEO_VIEW",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:912521083",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "0.56"
+        },
+        "name": "Boost Post Video Views April 1, 2026 at 6:13 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "250"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1775861264199,
+          "end": 1776987900000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775861264653
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 604312763,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "5"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:923513693",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "7.35"
+        },
+        "name": "Boost Post Engagement April 10, 2026 at 10:47 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "200"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1775652268905,
+          "end": 1776815100000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775652269374
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462538720
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 604601893,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "7"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:922802223",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "7.35"
+        },
+        "name": "Boost Post Engagement April 8, 2026 at 12:43 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      },
+      {
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          },
+          "exclude": {
+            "or": {
+              "urn:li:adTargetingFacet:titles": [
+                "urn:li:title:15"
+              ]
+            }
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "optimizationTargetType": "MAX_CONVERSION",
+        "runSchedule": {
+          "start": 1775742961208
+        },
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1775743134776
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1780462539511
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 606003003,
+        "audienceExpansionEnabled": true,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "8"
+        },
+        "objectiveType": "WEBSITE_CONVERSION",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:923807933",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "31.78"
+        },
+        "name": "Aisepedia PME Drop",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "ACTIVE"
+      },
+      {
+        "totalBudget": {
+          "currencyCode": "USD",
+          "amount": "100"
+        },
+        "storyDeliveryEnabled": false,
+        "targetingCriteria": {
+          "include": {
+            "and": [
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:titles": [
+                    "urn:li:title:1195",
+                    "urn:li:title:13250",
+                    "urn:li:title:1333",
+                    "urn:li:title:1867",
+                    "urn:li:title:19900",
+                    "urn:li:title:2012",
+                    "urn:li:title:20600",
+                    "urn:li:title:227",
+                    "urn:li:title:344",
+                    "urn:li:title:3949",
+                    "urn:li:title:5324",
+                    "urn:li:title:590",
+                    "urn:li:title:6093",
+                    "urn:li:title:716",
+                    "urn:li:title:8335",
+                    "urn:li:title:8374",
+                    "urn:li:title:9506"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:industries": [
+                    "urn:li:industry:116",
+                    "urn:li:industry:14",
+                    "urn:li:industry:1594",
+                    "urn:li:industry:1999",
+                    "urn:li:industry:25",
+                    "urn:li:industry:27",
+                    "urn:li:industry:3259",
+                    "urn:li:industry:43",
+                    "urn:li:industry:48"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:locations": [
+                    "urn:li:geo:103644278"
+                  ]
+                }
+              },
+              {
+                "or": {
+                  "urn:li:adTargetingFacet:interfaceLocales": [
+                    "urn:li:locale:en_US"
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "connectedTelevisionOnly": false,
+        "pacingStrategy": "LIFETIME",
+        "locale": {
+          "country": "US",
+          "language": "en"
+        },
+        "type": "SPONSORED_UPDATES",
+        "runSchedule": {
+          "start": 1776450446362,
+          "end": 1776642300000
+        },
+        "optimizationTargetType": "MAX_CLICK",
+        "changeAuditStamps": {
+          "created": {
+            "actor": "urn:li:unknown:0",
+            "time": 1776450447015
+          },
+          "lastModified": {
+            "actor": "urn:li:unknown:0",
+            "time": 1777867344715
+          }
+        },
+        "costType": "CPM",
+        "creativeSelection": "OPTIMIZED",
+        "offsiteDeliveryEnabled": true,
+        "id": 661703573,
+        "audienceExpansionEnabled": false,
+        "test": false,
+        "format": "STANDARD_UPDATE",
+        "servingStatuses": [
+          "CAMPAIGN_END_DATE_HOLD",
+          "STOPPED",
+          "CAMPAIGN_GROUP_STATUS_HOLD"
+        ],
+        "version": {
+          "versionTag": "5"
+        },
+        "objectiveType": "ENGAGEMENT",
+        "associatedEntity": "urn:li:organization:104655185",
+        "offsitePreferences": {
+          "iabCategories": {
+            "exclude": []
+          },
+          "publisherRestrictionFiles": {
+            "include": [],
+            "exclude": []
+          }
+        },
+        "campaignGroup": "urn:li:sponsoredCampaignGroup:977808403",
+        "politicalIntent": "NOT_DECLARED",
+        "unitCost": {
+          "currencyCode": "USD",
+          "amount": "4.4"
+        },
+        "name": "Boost Post Engagement April 17, 2026 at 6:27 PM",
+        "account": "urn:li:sponsoredAccount:514146109",
+        "status": "COMPLETED"
+      }
+    ]
+  }
+]

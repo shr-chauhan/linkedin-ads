@@ -146,8 +146,7 @@ _http_session = requests.Session()
 # --- API client ---
 
 def _build_url(base_url: str, params: dict) -> str:
-    """Build a query string preserving characters LinkedIn requires unencoded: [ ] ( ) : , ."""
-    safe_chars = "[](),:."
+    safe_chars = "[](),"
     qs = "&".join(
         f"{urllib.parse.quote(str(k), safe=safe_chars)}={urllib.parse.quote(str(v), safe=safe_chars)}"
         for k, v in params.items()
@@ -193,10 +192,6 @@ def make_request(method: str, endpoint: str, token: str, params: dict = None, js
 
 
 def _raw_get(url: str, token: str) -> dict:
-    """GET with a pre-built URL — bypasses _build_url encoding entirely.
-    Required for adAnalytics where LinkedIn needs URN colons encoded (%3A)
-    but structural characters like List(), parentheses, commas unencoded.
-    """
     headers = {
         "Authorization": f"Bearer {token}",
         "LinkedIn-Version": API_VERSION,
@@ -246,237 +241,217 @@ def fetch_ad_accounts(token: str) -> list:
     return accounts
 
 
-def fetch_campaign_groups(token: str, account_id: str) -> list:
-    print(f"  Fetching campaign groups for account {account_id}...")
-    try:
-        groups = paginate(f"adAccounts/{account_id}/adCampaignGroups", token, {"q": "search"})
-        print(f"    Found {len(groups)} campaign groups")
-        return groups
-    except Exception as e:
-        print(f"    Warning: could not fetch campaign groups ({e}) — skipping")
-        return []
-
-
 def fetch_campaigns(token: str, account_id: str) -> list:
     print(f"  Fetching campaigns for account {account_id}...")
     try:
-        campaigns = paginate(f"adAccounts/{account_id}/adCampaigns", token, {"q": "search"})
-        print(f"    Found {len(campaigns)} campaigns")
-        return campaigns
+        return paginate(f"adAccounts/{account_id}/adCampaigns", token, {"q": "search"})
     except Exception as e:
         print(f"    Warning: could not fetch campaigns ({e}) — skipping")
         return []
 
 
-# --- Analytics fetchers ---
-# Key learnings from debugging:
-# - Use q=statistics with pivots=List(CAMPAIGN), NOT q=analytics with pivot=CAMPAIGN
-# - Use accounts=List(...) facet, NOT campaigns=List(...)
-# - URN colons must be percent-encoded (%3A) inside List() — e.g. urn%3Ali%3AsponsoredAccount%3A123
-# - Structural characters List(), parentheses, commas must stay unencoded
-# - Use _raw_get() to bypass _build_url which would double-encode
+def fetch_creatives_by_campaigns(token: str, account_id: str, campaign_urns: list) -> list:
+    if not campaign_urns:
+        return []
+        
+    print(f"  Fetching creatives via criteria search filter for {len(campaign_urns)} campaigns...")
+    all_creatives = []
+    
+    batch_size = 20
+    for i in range(0, len(campaign_urns), batch_size):
+        batch = campaign_urns[i:i+batch_size]
+        campaigns_list_str = f"List({','.join(batch)})"
+        
+        try:
+            creatives = paginate(
+                f"adAccounts/{account_id}/creatives",
+                token,
+                {
+                    "q": "criteria",
+                    "campaigns": campaigns_list_str
+                }
+            )
+            all_creatives.extend(creatives)
+        except Exception as e:
+            print(f"    Warning: could not fetch creatives for campaign batch starting index {i} ({e})")
+            
+    return all_creatives
 
-def fetch_campaign_analytics(token: str, account_id: str) -> list:
-    """Fetch campaign analytics for the last 365 days."""
-    print(f"Fetching campaign analytics for account {account_id}...")
 
+def fetch_post_details(token: str, post_urn: str) -> dict:
+    if not post_urn:
+        return {}
+    try:
+        if "urn:li:share:" in post_urn or "urn:li:ugcPost:" in post_urn:
+            post_key = urllib.parse.quote(post_urn, safe="")
+        else:
+            post_key = extract_id(post_urn)
+
+        url = f"{BASE_URL}posts/{post_key}"
+        post_data = _raw_get(url, token)
+        
+        post_text = post_data.get("commentary", "")
+        headline = ""
+        landing_page = ""
+        
+        content = post_data.get("content", {})
+        if content:
+            article = content.get("article", {})
+            if article:
+                headline = article.get("title", "")
+                landing_page = article.get("source", "")
+            else:
+                media = content.get("media", {})
+                if media:
+                    headline = media.get("title", "")
+                    
+        return {
+            "post_text": post_text,
+            "headline": headline,
+            "landing_page": landing_page
+        }
+    except Exception as e:
+        print(f"    Warning: could not extract details for post URN {post_urn} ({e})")
+        return {}
+
+
+def fetch_creative_level_analytics(token: str, account_id: str) -> list:
+    print(f"  Fetching performance analytics by CREATIVE for account {account_id}...")
     end = datetime.now(timezone.utc)
-    start = end - timedelta(days=365)
+    start = end - timedelta(days=1095)
 
     date_range = (
         f"(start:(year:{start.year},month:{start.month},day:{start.day}),"
         f"end:(year:{end.year},month:{end.month},day:{end.day}))"
     )
 
-    account_urn_encoded = urllib.parse.quote(
-        f"urn:li:sponsoredAccount:{account_id}",
-        safe=""
-    )
-
+    account_urn_encoded = urllib.parse.quote(f"urn:li:sponsoredAccount:{account_id}", safe="")
+    fields = "pivotValues,impressions,clicks,actionClicks,totalEngagements"
+    
     url = (
         f"{BASE_URL}adAnalytics"
-        f"?q=statistics"
-        f"&pivots=List(CAMPAIGN)"
+        f"?q=analytics"
+        f"&pivot=CREATIVE"
         f"&timeGranularity=DAILY"
         f"&dateRange={date_range}"
         f"&accounts=List({account_urn_encoded})"
+        f"&fields={fields}"
     )
-
-    print(f"Analytics URL: {url}")
-
-    data = _raw_get(url, token)
-
-    # Debug output
-    # print(json.dumps(data, indent=2)[:3000])
-
-    elements = data.get("elements", [])
-
-    print(f"  Retrieved {len(elements)} analytics records")
-
-    return elements
+    return _raw_get(url, token).get("elements", [])
 
 
-def fetch_company_engagement(token: str, account_id: str) -> list:
-    """Fetch company engagement analytics."""
-
-    print(f"Fetching company engagement for account {account_id}...")
-
-    end = datetime.now(timezone.utc)
-    start = end - timedelta(days=365)
-
-    date_range = (
-        f"(start:(year:{start.year},month:{start.month},day:{start.day}),"
-        f"end:(year:{end.year},month:{end.month},day:{end.day}))"
-    )
-
-    account_urn_encoded = urllib.parse.quote(
-        f"urn:li:sponsoredAccount:{account_id}",
-        safe=""
-    )
-
-    url = (
-        f"{BASE_URL}adAnalytics"
-        f"?q=statistics"
-        f"&pivots=List(COMPANY)"
-        f"&timeGranularity=DAILY"
-        f"&dateRange={date_range}"
-        f"&accounts=List({account_urn_encoded})"
-    )
-
-    print(f"Company Analytics URL: {url}")
-
-    try:
-        data = _raw_get(url, token)
-
-        # print(json.dumps(data, indent=2)[:3000])
-
-        elements = data.get("elements", [])
-
-        print(f"  Retrieved {len(elements)} company engagement records")
-
-        return elements
-
-    except Exception as e:
-        print(f"  Warning: could not fetch company engagement ({e}) — skipping")
-        return []
-
-def fetch_creatives(token: str, account_id: str) -> list:
-    print(f"Fetching creatives for account {account_id}...")
-
-    try:
-        creatives = paginate(
-            f"adAccounts/{account_id}/creatives",
-            token,
-            {"q": "search"}
-        )
-
-        print(f"  Found {len(creatives)} creatives")
-
-        if creatives:
-            print("\n========== SAMPLE CREATIVE ==========")
-            print(json.dumps(creatives[0], indent=2))
-            print("=====================================\n")
-
-        return creatives
-
-    except Exception as e:
-        print(f"  Warning: could not fetch creatives ({e})")
-        return []
-
-
-# --- Main orchestration ---
+# --- Main Orchestration ---
 
 def main():
     token = get_valid_token()
-
-    # 1. Ad accounts
     accounts = fetch_ad_accounts(token)
-    Path("ad_accounts.json").write_text(json.dumps(accounts, indent=2))
-    print(f"Saved ad_accounts.json ({len(accounts)} accounts)\n")
 
     if not accounts:
-        print("No ad accounts found for this user — nothing more to fetch.")
+        print("No active ad accounts found.")
         return
 
-    # 2. Campaigns + Creatives
-    all_campaign_ids = []
-    all_campaigns_data = []
-    all_creatives = []
+    consolidated_report = []
 
     for account in accounts:
         account_id = extract_id(account.get("id", ""))
-
-        groups = fetch_campaign_groups(token, account_id)
+        print(f"\nProcessing data for Account: {account_id}")
+        
         campaigns = fetch_campaigns(token, account_id)
-
-        # NEW
-        creatives = fetch_creatives(token, account_id)
-        all_creatives.extend(creatives)
-
+        
+        campaign_urns = []
         for c in campaigns:
-            cid = extract_id(c.get("id", ""))
-            if cid:
-                all_campaign_ids.append(cid)
+            raw_id = c.get("id")
+            if raw_id:
+                urn_str = str(raw_id) if "urn:li:" in str(raw_id) else f"urn:li:sponsoredCampaign:{raw_id}"
+                campaign_urns.append(urn_str)
+        
+        creatives = fetch_creatives_by_campaigns(token, account_id, campaign_urns)
+        analytics_records = fetch_creative_level_analytics(token, account_id)
 
-        all_campaigns_data.append({
-            "account_id": account_id,
-            "campaign_groups": groups,
-            "campaigns": campaigns,
-        })
+        campaign_map = {}
+        for c in campaigns:
+            raw_id = c.get("id")
+            name = c.get("name", "Unnamed Campaign")
+            if raw_id:
+                campaign_map[str(raw_id)] = name
+                campaign_map[f"urn:li:sponsoredCampaign:{raw_id}"] = name
 
-    Path("campaigns.json").write_text(
-        json.dumps(all_campaigns_data, indent=2)
-    )
+        metrics_by_creative = {}
+        for record in analytics_records:
+            pivot_list = record.get("pivotValues", [])
+            if not pivot_list:
+                continue
+                
+            pivot_urn = pivot_list[0] if isinstance(pivot_list, list) else pivot_list
+            creative_id = extract_id(pivot_urn)
+            if not creative_id:
+                continue
+                
+            if creative_id not in metrics_by_creative:
+                metrics_by_creative[creative_id] = {
+                    "impressions": 0, 
+                    "clicks": 0,
+                    "action_clicks": 0,
+                    "total_engagements": 0
+                }
+                
+            metrics_by_creative[creative_id]["impressions"] += record.get("impressions", 0)
+            metrics_by_creative[creative_id]["clicks"] += record.get("clicks", 0)
+            metrics_by_creative[creative_id]["total_engagements"] += record.get("totalEngagements", 0)
+            
+            # FIX: actionClicks is a single flat integer metric under the simple analytics query projection
+            metrics_by_creative[creative_id]["action_clicks"] += record.get("actionClicks", 0)
 
-    print(
-        f"Saved campaigns.json ({len(all_campaign_ids)} campaigns total)\n"
-    )
+        post_content_cache = {}
 
-    # NEW
-    Path("creatives.json").write_text(
-        json.dumps(all_creatives, indent=2)
-    )
+        print(f"  Stitching metrics and post texts for {len(creatives)} creative variants...")
+        for creative in creatives:
+            creative_raw_id = extract_id(creative.get("id"))
+            campaign_urn = creative.get("campaign")
+            
+            campaign_name = campaign_map.get(str(campaign_urn), "Unknown Campaign")
 
-    print(
-        f"Saved creatives.json ({len(all_creatives)} creatives total)\n"
-    )
+            metrics = metrics_by_creative.get(creative_raw_id, {
+                "impressions": 0, "clicks": 0, "action_clicks": 0, "total_engagements": 0
+            })
+            
+            impressions = metrics["impressions"]
+            clicks = metrics["clicks"]
+            ctr = round((clicks / impressions) * 100, 2) if impressions > 0 else 0.0
 
-    # Print one sample creative so we can inspect schema
-    if all_creatives:
-        print("\n========== SAMPLE CREATIVE ==========")
-        print(json.dumps(all_creatives[0], indent=2))
-        print("=====================================\n")
+            content_src = creative.get("content", {})
+            post_urn = content_src.get("reference") or content_src.get("post")
+            
+            post_text = ""
+            headline = ""
+            landing_page = ""
 
-    # 3. Campaign analytics + company engagement
-    all_analytics = []
-    all_engagement = []
+            if post_urn:
+                if post_urn not in post_content_cache:
+                    print(f"    Fetching text details for post variant: {post_urn}")
+                    post_content_cache[post_urn] = fetch_post_details(token, post_urn)
+                
+                details = post_content_cache[post_urn]
+                post_text = details.get("post_text", "")
+                headline = details.get("headline", "")
+                landing_page = details.get("landing_page", "")
 
-    for account in accounts:
-        account_id = extract_id(account.get("id", ""))
+            variant_summary = {
+                "campaign_name": campaign_name,
+                "post_text": post_text,
+                "headline": headline,
+                "landing_page": landing_page,
+                "impressions": impressions,
+                "clicks": clicks,
+                "ctr": ctr,
+                "social_action_clicks": metrics["action_clicks"],
+                "total_engagements": metrics["total_engagements"]
+            }
+            consolidated_report.append(variant_summary)
 
-        analytics = fetch_campaign_analytics(token, account_id)
-        all_analytics.extend(analytics)
-
-        engagement = fetch_company_engagement(token, account_id)
-        all_engagement.extend(engagement)
-
-    Path("analytics.json").write_text(
-        json.dumps(all_analytics, indent=2)
-    )
-
-    print(
-        f"Saved analytics.json ({len(all_analytics)} records)\n"
-    )
-
-    Path("company_engagement.json").write_text(
-        json.dumps(all_engagement, indent=2)
-    )
-
-    print(
-        f"Saved company_engagement.json ({len(all_engagement)} records)\n"
-    )
-
-    print("Done!")
+    output_file = Path("consolidated_campaigns.json")
+    output_file.write_text(json.dumps(consolidated_report, indent=2), encoding="utf-8")
+    print(f"\nSuccess! Variant-level unified profile written to: {output_file.resolve()}")
 
 
 if __name__ == "__main__":

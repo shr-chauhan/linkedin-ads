@@ -1,0 +1,5303 @@
+[
+  {
+    "clicks": 1334,
+    "impressions": 315555,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 8,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 8,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1332,
+    "impressions": 294915,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1327,
+    "impressions": 292406,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 985,
+    "impressions": 268454,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 9,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 9,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 928,
+    "impressions": 228946,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 7,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 7,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 681,
+    "impressions": 209036,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 10,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 10,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 880,
+    "impressions": 136392,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 4,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 4,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 877,
+    "impressions": 126864,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 6,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 6,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 516,
+    "impressions": 97163,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 2,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 2,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 346,
+    "impressions": 73682,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 16,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 16,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 488,
+    "impressions": 64727,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 28,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 28,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 703,
+    "impressions": 63000,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474820463"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 23,
+    "impressions": 59224,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 24,
+    "impressions": 57946,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 501,
+    "impressions": 55312,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 12,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 12,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 53220,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 711,
+    "impressions": 49373,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474820463"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 214,
+    "impressions": 47377,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474820463"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 46893,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 310,
+    "impressions": 46543,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 15,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 15,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 46347,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 349,
+    "impressions": 45373,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 14,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 14,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 44584,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 464,
+    "impressions": 44077,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 13,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 13,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 43652,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 286,
+    "impressions": 38484,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 26,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 26,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 636,
+    "impressions": 37343,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 30,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 30,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 36746,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 6,
+    "impressions": 36032,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 373,
+    "impressions": 35442,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 11,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 11,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 541,
+    "impressions": 33601,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474820463"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 4,
+    "impressions": 33212,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 191,
+    "impressions": 33081,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 18,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 18,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 31228,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 431,
+    "impressions": 30494,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 1,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 1,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 148,
+    "impressions": 28266,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 17,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 17,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 26173,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 4,
+    "impressions": 25502,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 7,
+    "impressions": 19451,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:595903363"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 122,
+    "impressions": 16822,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 19,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 19,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 138,
+    "impressions": 16407,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 20,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 20,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 109,
+    "impressions": 15541,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 100,
+    "impressions": 15000,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474820463"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 69,
+    "impressions": 12857,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 23,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 23,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 87,
+    "impressions": 12076,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 82,
+    "impressions": 11467,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 87,
+    "impressions": 10252,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 93,
+    "impressions": 10246,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 29,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 29,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 117,
+    "impressions": 10099,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 43,
+    "impressions": 9865,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 22,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 22,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 31,
+    "impressions": 9649,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 21,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 21,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 81,
+    "impressions": 8713,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 115,
+    "impressions": 8260,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 66,
+    "impressions": 8111,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 49,
+    "impressions": 7901,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 111,
+    "impressions": 7891,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 110,
+    "impressions": 7641,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 73,
+    "impressions": 7547,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 51,
+    "impressions": 7546,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455189113"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 4,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 4,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 98,
+    "impressions": 7537,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 78,
+    "impressions": 7127,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 78,
+    "impressions": 7065,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 70,
+    "impressions": 6935,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 45,
+    "impressions": 6892,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 27,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 27,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 53,
+    "impressions": 6822,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 95,
+    "impressions": 6760,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 87,
+    "impressions": 6696,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 117,
+    "impressions": 6648,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455189113"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 62,
+    "impressions": 6583,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455189113"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 2,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 2,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 6565,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 95,
+    "impressions": 6382,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 88,
+    "impressions": 6305,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 72,
+    "impressions": 6070,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 92,
+    "impressions": 5941,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 98,
+    "impressions": 5931,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 69,
+    "impressions": 5923,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 142,
+    "impressions": 5822,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 59,
+    "impressions": 5745,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 63,
+    "impressions": 5738,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 73,
+    "impressions": 5723,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 51,
+    "impressions": 5534,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 5418,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 63,
+    "impressions": 5260,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 55,
+    "impressions": 5258,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 50,
+    "impressions": 5176,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 72,
+    "impressions": 5153,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 74,
+    "impressions": 4895,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 4688,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 4685,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 74,
+    "impressions": 4360,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 48,
+    "impressions": 4287,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 4225,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 76,
+    "impressions": 4032,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:661703573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 3991,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 61,
+    "impressions": 3975,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 23,
+    "impressions": 3966,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 55,
+    "impressions": 3804,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 7,
+    "impressions": 3600,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 3580,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:661703573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 3415,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455189113"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 3333,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 3313,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 3309,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 3227,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 29,
+    "impressions": 3220,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 3215,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 3157,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 3156,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 3150,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 3145,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:661703573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 3082,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 3061,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 49,
+    "impressions": 3055,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 2849,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 103,
+    "impressions": 2784,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455189113"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 25,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 25,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 2524,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 21,
+    "impressions": 2474,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 6,
+    "impressions": 2442,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 2416,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 2407,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 2381,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 2367,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 2312,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 2310,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 5,
+    "impressions": 2304,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 57,
+    "impressions": 2224,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 21,
+    "impressions": 2208,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 2189,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 49,
+    "impressions": 2178,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440918633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 4,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 4,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 27,
+    "impressions": 2166,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 2158,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440918633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 2140,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 2117,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 2112,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 2108,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 2089,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 2086,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 2038,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 2031,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 2023,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 2003,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 1997,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 24,
+    "impressions": 1982,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 1958,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1919,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 23,
+    "impressions": 1900,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 15,
+    "impressions": 1900,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 1851,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 1848,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1836,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 6,
+    "impressions": 1799,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 1785,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 16,
+    "impressions": 1759,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 1749,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 7,
+    "impressions": 1746,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 41,
+    "impressions": 1739,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:515725223"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 1732,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 1732,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 1726,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 1725,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 23,
+    "impressions": 1716,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 1702,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 38,
+    "impressions": 1696,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 1680,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 1663,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 1652,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 1649,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 6,
+    "impressions": 1648,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 15,
+    "impressions": 1644,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 1640,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 1622,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 1610,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 30,
+    "impressions": 1605,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 1603,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:592200633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 21,
+    "impressions": 1565,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 23,
+    "impressions": 1560,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 1486,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 15,
+    "impressions": 1476,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1472,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 16,
+    "impressions": 1461,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 24,
+    "impressions": 1447,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 60,
+    "impressions": 1441,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:447480174"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 21,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 21,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 1403,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1386,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 21,
+    "impressions": 1363,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 1356,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 30,
+    "impressions": 1342,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 1308,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 1285,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 16,
+    "impressions": 1278,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 1256,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 22,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 22,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 1222,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 21,
+    "impressions": 1197,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 6,
+    "impressions": 1194,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 18,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 18,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 1194,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 1174,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604312763"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 1174,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 95,
+    "impressions": 1150,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455229433"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 25,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 25,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 29,
+    "impressions": 1144,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 5,
+    "impressions": 1132,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 1119,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 19,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 19,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 1117,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 25,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 25,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 1100,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 40,
+    "impressions": 1090,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 1085,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1048,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 1029,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 17,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 17,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 992,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 992,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 4,
+    "impressions": 986,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:593700663"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 949,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 16,
+    "impressions": 947,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:604601893"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 936,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 925,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 6,
+    "impressions": 918,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588101353"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 5,
+    "impressions": 897,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 895,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:467970623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 894,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440918633"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 884,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 24,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 24,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 877,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 23,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 23,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 27,
+    "impressions": 850,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 850,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:588341033"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 841,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 830,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 20,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 20,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 828,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 804,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 21,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 21,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 3,
+    "impressions": 801,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 789,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 26,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 26,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 27,
+    "impressions": 781,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:419888753"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 9,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 9,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 768,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 730,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 5,
+    "impressions": 718,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 711,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474691613"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 710,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:606003003"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 613,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463435263"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 35,
+    "impressions": 601,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 575,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 46,
+    "impressions": 549,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:447480174"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 22,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 22,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 542,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463435263"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 515,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 42,
+    "impressions": 505,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 492,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:419888753"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 9,
+        "day": 6,
+        "year": 2025
+      },
+      "end": {
+        "month": 9,
+        "day": 6,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 419,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463032043"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 27,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 27,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 37,
+    "impressions": 401,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 360,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 348,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 320,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463435263"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 316,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 310,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 258,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 251,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 248,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 247,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 239,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 3,
+    "impressions": 229,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440753453"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 31,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 31,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 24,
+    "impressions": 225,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 223,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 216,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 207,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 168,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463435263"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 5,
+    "impressions": 162,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 4,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 4,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 161,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 152,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 29,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 29,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 133,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 28,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 28,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 132,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 30,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 30,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 4,
+    "impressions": 115,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 31,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 31,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 110,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 0,
+    "impressions": 108,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 7,
+    "impressions": 96,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:487523623"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 5,
+    "impressions": 84,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474113573"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 68,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440753453"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 1,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 1,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 0,
+    "impressions": 68,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440753453"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 0,
+    "impressions": 52,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:463435263"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 43,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 2,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 2,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 43,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 1,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 1,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 3,
+    "impressions": 36,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440753453"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 2,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 2,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 2,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:474820463"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 1,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:440374443"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 27,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 27,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 0,
+    "pivotValues": [
+      "urn:li:sponsoredCampaign:455189113"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 26,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 26,
+        "year": 2025
+      }
+    }
+  }
+]

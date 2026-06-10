@@ -1,0 +1,2909 @@
+[
+  {
+    "clicks": 1334,
+    "impressions": 315555,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 8,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 8,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1449,
+    "impressions": 301563,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1381,
+    "impressions": 295821,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 985,
+    "impressions": 268454,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 9,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 9,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 928,
+    "impressions": 228946,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 7,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 7,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 681,
+    "impressions": 209036,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 10,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 10,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 931,
+    "impressions": 143938,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 4,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 4,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 877,
+    "impressions": 126864,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 6,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 6,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 578,
+    "impressions": 103746,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 2,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 2,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 785,
+    "impressions": 74467,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 346,
+    "impressions": 73682,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 16,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 16,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 115,
+    "impressions": 65078,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 64,
+    "impressions": 65032,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 488,
+    "impressions": 64727,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 28,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 28,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 142,
+    "impressions": 63124,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 143,
+    "impressions": 61677,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 798,
+    "impressions": 61449,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 144,
+    "impressions": 57031,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 501,
+    "impressions": 55312,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 12,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 12,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 128,
+    "impressions": 53382,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 198,
+    "impressions": 51429,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 78,
+    "impressions": 49407,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 226,
+    "impressions": 49102,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 310,
+    "impressions": 46543,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 15,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 15,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 349,
+    "impressions": 45373,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 14,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 14,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 464,
+    "impressions": 44077,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 13,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 13,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 56,
+    "impressions": 43151,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 191,
+    "impressions": 42876,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 287,
+    "impressions": 38484,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 26,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 26,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 78,
+    "impressions": 37572,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 636,
+    "impressions": 37343,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 30,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 30,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 590,
+    "impressions": 36656,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 373,
+    "impressions": 35442,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 11,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 11,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 115,
+    "impressions": 34696,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 197,
+    "impressions": 34275,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 18,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 18,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 33349,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 431,
+    "impressions": 30494,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 1,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 1,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 156,
+    "impressions": 29295,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 17,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 17,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 57,
+    "impressions": 25104,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 215,
+    "impressions": 25020,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 264,
+    "impressions": 21855,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 163,
+    "impressions": 18613,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 202,
+    "impressions": 18016,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 133,
+    "impressions": 17941,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 19,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 19,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 148,
+    "impressions": 17237,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 20,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 20,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 160,
+    "impressions": 14006,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 80,
+    "impressions": 13734,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 23,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 23,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 107,
+    "impressions": 12026,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 136,
+    "impressions": 11940,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 11121,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 22,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 22,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 144,
+    "impressions": 10580,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 115,
+    "impressions": 10568,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 40,
+    "impressions": 10453,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 21,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 21,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 103,
+    "impressions": 10342,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 114,
+    "impressions": 10296,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 107,
+    "impressions": 10285,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 93,
+    "impressions": 10246,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 29,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 29,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 75,
+    "impressions": 10155,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 121,
+    "impressions": 9821,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 123,
+    "impressions": 9707,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 98,
+    "impressions": 9152,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 118,
+    "impressions": 8146,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 66,
+    "impressions": 8111,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 104,
+    "impressions": 8008,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 69,
+    "impressions": 7583,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 58,
+    "impressions": 7561,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 70,
+    "impressions": 7236,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 77,
+    "impressions": 7045,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 45,
+    "impressions": 6892,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 27,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 27,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 67,
+    "impressions": 6877,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 6565,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 52,
+    "impressions": 6184,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 61,
+    "impressions": 6176,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 76,
+    "impressions": 6019,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 5581,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 78,
+    "impressions": 5422,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 5418,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 55,
+    "impressions": 4893,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 61,
+    "impressions": 3975,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 33,
+    "impressions": 3956,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 198,
+    "impressions": 3934,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 25,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 25,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 55,
+    "impressions": 3804,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 38,
+    "impressions": 3582,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 65,
+    "impressions": 3318,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 2849,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 45,
+    "impressions": 2639,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 59,
+    "impressions": 2588,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 29,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 29,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 2524,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 2411,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 54,
+    "impressions": 2340,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 4,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 4,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 34,
+    "impressions": 2334,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 3,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 47,
+    "impressions": 2125,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 30,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 30,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 2086,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 17,
+    "impressions": 1997,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 36,
+    "impressions": 1963,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1836,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 1749,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 21,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 21,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 1680,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 18,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 18,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 26,
+    "impressions": 1663,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 19,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 19,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 1640,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 36,
+    "impressions": 1526,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 31,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 31,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 15,
+    "impressions": 1476,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 24,
+    "impressions": 1447,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 20,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 20,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 60,
+    "impressions": 1441,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 21,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 21,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 30,
+    "impressions": 1342,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 16,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 16,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 1308,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 22,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 22,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 21,
+    "impressions": 1197,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 24,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 24,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 18,
+    "impressions": 1174,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 12,
+    "impressions": 1117,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 25,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 25,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 1100,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 14,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 14,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 40,
+    "impressions": 1090,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 12,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 12,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 1085,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1048,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 13,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 13,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 1004,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 992,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 15,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 15,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 925,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 17,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 17,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 20,
+    "impressions": 895,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 884,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 24,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 24,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 27,
+    "impressions": 850,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 11,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 11,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 33,
+    "impressions": 843,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 14,
+    "impressions": 789,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 26,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 26,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 27,
+    "impressions": 781,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 9,
+        "day": 5,
+        "year": 2025
+      },
+      "end": {
+        "month": 9,
+        "day": 5,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 768,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 730,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 711,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 23,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 23,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 710,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 4,
+        "day": 25,
+        "year": 2026
+      },
+      "end": {
+        "month": 4,
+        "day": 25,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 613,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 35,
+    "impressions": 601,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 2,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 2,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 32,
+    "impressions": 575,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 26,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 26,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 46,
+    "impressions": 549,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 22,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 22,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 542,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 515,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 5,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 5,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 42,
+    "impressions": 505,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 4,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 4,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 19,
+    "impressions": 492,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 9,
+        "day": 6,
+        "year": 2025
+      },
+      "end": {
+        "month": 9,
+        "day": 6,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 419,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 12,
+        "day": 27,
+        "year": 2025
+      },
+      "end": {
+        "month": 12,
+        "day": 27,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 37,
+    "impressions": 401,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 25,
+    "impressions": 360,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 1,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 1,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 28,
+    "impressions": 348,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 3,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 3,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 7,
+    "impressions": 344,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 31,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 31,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 320,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 310,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 8,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 8,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 22,
+    "impressions": 258,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 7,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 7,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 13,
+    "impressions": 251,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 3,
+        "day": 9,
+        "year": 2026
+      },
+      "end": {
+        "month": 3,
+        "day": 9,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 239,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 28,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 28,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 8,
+    "impressions": 216,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 2,
+        "day": 27,
+        "year": 2026
+      },
+      "end": {
+        "month": 2,
+        "day": 27,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 168,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 10,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 10,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 9,
+    "impressions": 152,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 29,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 29,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 11,
+    "impressions": 133,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 28,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 28,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 10,
+    "impressions": 132,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 30,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 30,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 2,
+    "impressions": 111,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 1,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 1,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 4,
+    "impressions": 79,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 11,
+        "day": 2,
+        "year": 2025
+      },
+      "end": {
+        "month": 11,
+        "day": 2,
+        "year": 2025
+      }
+    }
+  },
+  {
+    "clicks": 0,
+    "impressions": 52,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 1,
+        "day": 6,
+        "year": 2026
+      },
+      "end": {
+        "month": 1,
+        "day": 6,
+        "year": 2026
+      }
+    }
+  },
+  {
+    "clicks": 1,
+    "impressions": 1,
+    "pivotValues": [
+      "urn:li:organization:104655185"
+    ],
+    "dateRange": {
+      "start": {
+        "month": 10,
+        "day": 27,
+        "year": 2025
+      },
+      "end": {
+        "month": 10,
+        "day": 27,
+        "year": 2025
+      }
+    }
+  }
+]

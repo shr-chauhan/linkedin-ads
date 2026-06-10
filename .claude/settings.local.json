@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Aisepedia\\\\Linkedin\\\\docs\\\\superpowers\\\\plans\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Aisepedia\\\\Linkedin\\\\linkedin_ads\\\\tests\")"
+    ]
+  }
+}
