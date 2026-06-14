@@ -5,6 +5,11 @@ import urllib.parse
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import requests
+import metrics_registry
+
+# Drop emoji/box-drawing characters the console can't display (e.g. default
+# Windows cp1252) instead of crashing, without requiring PYTHONIOENCODING=utf-8.
+sys.stdout.reconfigure(errors="ignore")
 
 # --- Settings & Setup ---
 BASE_URL = "https://api.linkedin.com/rest/"
@@ -15,6 +20,7 @@ TOP_COMPANIES_LIMIT = 20
 TOP_FUNCTIONS_LIMIT = 20
 TOP_SENIORITIES_LIMIT = 20
 TOP_SIZES_LIMIT = 20
+INCLUDE_VIRAL_METRICS = False
 
 def load_token_string() -> str:
     if not TOKEN_FILE.exists():
@@ -157,35 +163,6 @@ def extract_all_urns_from_targeting(criteria_dict: dict) -> list:
         urns.append(criteria_dict)
     return urns
 
-def calculate_metrics(raw: dict) -> dict:
-    """Calculates rates, ratios, and down-funnel costs based on raw tracking data."""
-    calc = {}
-    
-    impressions = raw.get("impressions", 0)
-    clicks = raw.get("clicks", 0)
-    landing_clicks = raw.get("landingPageClicks", 0)
-    spend = raw.get("spend_float", 0.0)
-    conversions = raw.get("externalWebsiteConversions", 0)
-    form_opens = raw.get("oneClickLeadFormOpens", 0)
-    leads = raw.get("oneClickLeads", 0)
-    qual_leads = raw.get("qualifiedLeads", 0)
-    v_starts = raw.get("videoStarts", 0)
-    v_views = raw.get("videoViews", 0)
-    v_comps = raw.get("videoCompletions", 0)
-
-    calc["ctr_percent"] = round((clicks / impressions) * 100, 2) if impressions > 0 else 0.0
-    calc["conversion_rate_percent"] = round((conversions / landing_clicks) * 100, 2) if landing_clicks > 0 else 0.0
-    calc["cost_per_conversion"] = round(spend / conversions, 2) if conversions > 0 else 0.0
-    calc["lead_form_completion_rate_percent"] = round((leads / form_opens) * 100, 2) if form_opens > 0 else 0.0
-    calc["cost_per_lead"] = round(spend / leads, 2) if leads > 0 else 0.0
-    calc["cost_per_qualified_lead"] = round(spend / qual_leads, 2) if qual_leads > 0 else 0.0
-    calc["video_view_rate_percent"] = round((v_views / impressions) * 100, 2) if impressions > 0 else 0.0
-    calc["video_completion_rate_percent"] = round((v_comps / v_starts) * 100, 2) if v_starts > 0 else 0.0
-    calc["cpc"] = round(spend / clicks, 2) if clicks > 0 else 0.0
-    calc["cpm"] = round((spend / impressions) * 1000, 2) if impressions > 0 else 0.0
-
-    return calc
-
 def main():
     token = load_token_string()
     print(f"🚀 Initializing deep raw metadata inspection for Campaign: {TARGET_CAMPAIGN_ID}...")
@@ -288,61 +265,30 @@ def main():
     creatives_data = get_linkedin_raw(creatives_url, token)
     creative_elements = creatives_data.get("elements", []) if isinstance(creatives_data, dict) else []
 
-    # --- 7. Fetch Global Analytics Metrics via Dual-Query Engine ---
-    print("├── Dumping statistical engine analytics rows via safe chunking requests...")
-    end_dt = datetime.now(timezone.utc)
-    start_dt = end_dt - timedelta(days=1095)
-    date_range_str = f"(start:(year:{start_dt.year},month:{start_dt.month},day:{start_dt.day}),end:(year:{end_dt.year},month:{end_dt.month},day:{end_dt.day}))"
-    
-    # Batch 1 (11 metrics + 2 structural fields = 13 parameters)
-    metrics_batch_1 = "impressions,costInLocalCurrency,clicks,landingPageClicks,likes,shares,comments,commentLikes,totalEngagements,follows,oneClickLeadFormOpens,dateRange,pivotValues"
-    # Batch 2 (8 metrics + 2 structural fields = 10 parameters)
-    metrics_batch_2 = "oneClickLeads,qualifiedLeads,videoStarts,videoViews,videoCompletions,videoWatchTime,averageVideoWatchTime,externalWebsiteConversions,registrations,dateRange,pivotValues"
-
-    stats_url_1 = f"{BASE_URL}adAnalytics?q=analytics&pivot=CREATIVE&timeGranularity=ALL&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={metrics_batch_1}"
-    stats_url_2 = f"{BASE_URL}adAnalytics?q=analytics&pivot=CREATIVE&timeGranularity=ALL&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={metrics_batch_2}"
-
-    analytics_data_1 = get_linkedin_raw(stats_url_1, token).get("elements", [])
-    analytics_data_2 = get_linkedin_raw(stats_url_2, token).get("elements", [])
-
-    performance_map = {}
-    
-    # Process and seed tracking data using batch 1
-    for row in analytics_data_1:
-        p_vals = row.get("pivotValues", [])
-        if p_vals:
-            c_id = extract_id(p_vals[0])
-            performance_map[c_id] = dict(row)
-
-    # Seamlessly overlay metric components returned from batch 2
-    for row in analytics_data_2:
-        p_vals = row.get("pivotValues", [])
-        if p_vals:
-            c_id = extract_id(p_vals[0])
-            if c_id in performance_map:
-                performance_map[c_id].update(row)
-            else:
-                performance_map[c_id] = dict(row)
-
-    # --- 8. Assemble Hierarchical Creative Blocks ---
+    # --- 6b. Pre-Pass: Resolve Post Content & Classify Each Creative ---
+    print("├── Pre-pass: resolving post content and classifying creative format/objective...")
+    creative_context = {}
     for creative in creative_elements:
         creative_urn = creative.get("id", "")
         creative_id = extract_id(creative_urn)
-        print(f"│   ├── Processing Child Tree Context for Creative: {creative_id}...")
 
         content_block = creative.get("content", {})
         post_urn = content_block.get("reference") or content_block.get("post")
         post_data = {}
+        post_content = {}
 
-        if post_urn:
+        if post_urn and "urn:li:event:" in post_urn:
+            # Event creatives reference an urn:li:event:, which /posts/{id} cannot resolve.
+            post_content = {"_reference_urn": post_urn}
+        elif post_urn:
             post_key = urllib.parse.quote(post_urn, safe="") if any(x in post_urn for x in ["share:", "ugcPost:"]) else extract_id(post_urn)
             post_endpoint_url = f"{BASE_URL}posts/{post_key}"
             raw_post = get_linkedin_raw(post_endpoint_url, token)
-            
+
             image_urn = None
             image_url = None
             content_details = raw_post.get("content", {})
-            
+
             if "article" in content_details:
                 image_urn = content_details["article"].get("thumbnail")
             elif "mediaComponent" in content_details:
@@ -367,60 +313,138 @@ def main():
                     "download_url": image_url
                 }
             }
+            post_content = content_details
+
+        classification = metrics_registry.classify_creative(post_content, campaign_direct_data)
+        print(f"│   │   ├── Classified as format='{classification['format']}', objective='{classification['objective']}'")
+
+        creative_context[creative_id] = {
+            "creative_urn": creative_urn,
+            "post_data": post_data,
+            "format": classification["format"],
+            "objective": classification["objective"],
+        }
+
+    # --- 7. Plan & Fetch Global Analytics Metrics via Content-Aware Query Planner ---
+    print("├── Planning analytics queries from per-creative format/objective classification...")
+    end_dt = datetime.now(timezone.utc)
+    start_dt = end_dt - timedelta(days=1095)
+    date_range_str = f"(start:(year:{start_dt.year},month:{start_dt.month},day:{start_dt.day}),end:(year:{end_dt.year},month:{end_dt.month},day:{end_dt.day}))"
+    # TODO: approximateMemberReach / audiencePenetration are only valid over a
+    # <=92-day date range. If either metric is added to metrics_registry, query
+    # it with its own short-window dateRange instead of the 1095-day
+    # date_range_str used here.
+
+    unique_format_objectives = {(ctx["format"], ctx["objective"]) for ctx in creative_context.values()}
+
+    creative_field_union = set()
+    for fmt, objective in unique_format_objectives:
+        for plan in metrics_registry.plan_queries(fmt, objective, API_VERSION, INCLUDE_VIRAL_METRICS):
+            if plan.pivot == metrics_registry.PIVOT_CREATIVE:
+                creative_field_union.update(plan.fields)
+
+    chunk_results = []
+    for chunk in metrics_registry.chunk_fields(sorted(creative_field_union)):
+        fields_param = ",".join(chunk)
+        stats_url = (
+            f"{BASE_URL}adAnalytics?q=analytics&pivot=CREATIVE&timeGranularity=ALL"
+            f"&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={fields_param}"
+        )
+        chunk_results.append(get_linkedin_raw(stats_url, token).get("elements", []))
+
+    performance_map = metrics_registry.merge_pivot_rows(chunk_results, extract_id)
+
+    # --- 8. Assemble Hierarchical Creative Blocks ---
+    DEEP_PIVOT_BREAKDOWN_KEYS = {
+        metrics_registry.PIVOT_CARD_INDEX: "card_index_breakdown",
+        metrics_registry.PIVOT_CONVERSATION_NODE: "conversation_node_breakdown",
+        metrics_registry.PIVOT_SERVING_LOCATION: "serving_location_breakdown",
+        metrics_registry.PIVOT_EVENT_STAGE: "event_stage_breakdown",
+    }
+
+    for creative in creative_elements:
+        creative_urn = creative.get("id", "")
+        creative_id = extract_id(creative_urn)
+        print(f"│   ├── Processing Child Tree Context for Creative: {creative_id}...")
+
+        ctx = creative_context.get(creative_id, {})
+        post_data = ctx.get("post_data", {})
+        fmt = ctx.get("format", "single_image")
+        objective = ctx.get("objective", "engagement")
+        applied_buckets = metrics_registry.applicable_buckets(fmt, objective)
+
+        selected_metrics = metrics_registry.select_metrics(fmt, objective, API_VERSION, INCLUDE_VIRAL_METRICS)
+        creative_field_names = [m.name for m in selected_metrics if metrics_registry.PIVOT_CREATIVE in m.pivots]
 
         perf_row = performance_map.get(creative_id, {})
-        
+
         raw_spend = perf_row.get("costInLocalCurrency", 0)
         spend_float = round(float(raw_spend), 2) if raw_spend else 0.0
 
-        # Core payload mapped exactly to native API naming parameters
-        performance_raw = {
-            "impressions": perf_row.get("impressions", 0),
-            "costInLocalCurrency": str(raw_spend),
-            "spend_float": spend_float,  # Pass inside cleanly to fuel calculations
-            "clicks": perf_row.get("clicks", 0),
-            "landingPageClicks": perf_row.get("landingPageClicks", 0),
-            "likes": perf_row.get("likes", 0),
-            "shares": perf_row.get("shares", 0),
-            "comments": perf_row.get("comments", 0),
-            "commentLikes": perf_row.get("commentLikes", 0),
-            "totalEngagements": perf_row.get("totalEngagements", 0),
-            "follows": perf_row.get("follows", 0),
-            "oneClickLeadFormOpens": perf_row.get("oneClickLeadFormOpens", 0),
-            "oneClickLeads": perf_row.get("oneClickLeads", 0),
-            "qualifiedLeads": perf_row.get("qualifiedLeads", 0),
-            "videoStarts": perf_row.get("videoStarts", 0),
-            "videoViews": perf_row.get("videoViews", 0),
-            "videoCompletions": perf_row.get("videoCompletions", 0),
-            "videoWatchTime": perf_row.get("videoWatchTime", 0),
-            "averageVideoWatchTime": perf_row.get("averageVideoWatchTime", 0),
-            "externalWebsiteConversions": perf_row.get("externalWebsiteConversions", 0),
-            "registrations": perf_row.get("registrations", 0),
-            "currency_code": output_payload["campaign"]["daily_budget"]["currency"],
-            "reporting_period": {
-                "start_date": format_api_date(perf_row.get("dateRange", {}).get("start")),
-                "end_date": format_api_date(perf_row.get("dateRange", {}).get("end"))
-            },
-            "pivot_creative_urn": perf_row.get("pivotValues", [None])[0]
+        # Core payload built dynamically from the metrics selected for this creative's format/objective
+        performance_raw = {name: perf_row.get(name, 0) for name in creative_field_names}
+        performance_raw["costInLocalCurrency"] = str(raw_spend)
+        performance_raw["spend_float"] = spend_float  # Pass inside cleanly to fuel calculations
+        performance_raw["currency_code"] = output_payload["campaign"]["daily_budget"]["currency"]
+        performance_raw["reporting_period"] = {
+            "start_date": format_api_date(perf_row.get("dateRange", {}).get("start")),
+            "end_date": format_api_date(perf_row.get("dateRange", {}).get("end"))
         }
+        performance_raw["pivot_creative_urn"] = perf_row.get("pivotValues", [None])[0]
 
-        # Calculate ratios and downstream metrics
-        performance_calculated = calculate_metrics(performance_raw)
-        
+        if metrics_registry.BUCKET_VIDEO in applied_buckets:
+            performance_raw["data_freshness_note"] = (
+                "videoWatchTime and averageVideoWatchTime may be delayed up to 48 hours."
+            )
+
+        # Deep-pivot creative-scoped breakdowns (CARD_INDEX / CONVERSATION_NODE / SERVING_LOCATION / EVENT_STAGE)
+        breakdowns = {}
+        creative_urn_encoded = urllib.parse.quote(creative_urn, safe="")
+        for plan in metrics_registry.plan_queries(fmt, objective, API_VERSION, INCLUDE_VIRAL_METRICS):
+            if not plan.creative_scoped:
+                continue
+            breakdown_key = DEEP_PIVOT_BREAKDOWN_KEYS.get(plan.pivot)
+            if not breakdown_key:
+                continue
+
+            deep_rows = []
+            for chunk in plan.chunks:
+                fields_param = ",".join(chunk)
+                deep_url = (
+                    f"{BASE_URL}adAnalytics?q=analytics&pivot={plan.pivot}&timeGranularity=ALL"
+                    f"&dateRange={date_range_str}&accounts=List({account_urn_encoded})"
+                    f"&creatives=List({creative_urn_encoded})&fields={fields_param}"
+                )
+                deep_rows.extend(get_linkedin_raw(deep_url, token).get("elements", []))
+            breakdowns[breakdown_key] = deep_rows
+
+        # Calculate ratios and downstream metrics, bucketed by content type
+        performance_calculated = metrics_registry.calculate_metrics(performance_raw, applied_buckets)
+
         # Pop calculation helper keys out of the raw dict before outputting
         performance_raw.pop("spend_float", None)
 
-        output_payload["campaign"]["creatives"].append({
+        output_creative = {
             "creative_id": creative_id,
             "creative_name": creative.get("name"),
             "created_date": format_timestamp(creative.get("createdAt")),
             "modified_date": format_timestamp(creative.get("lastModifiedAt")),
             "post": post_data,
+            "classification": {"format": fmt, "objective": objective},
             "performance_raw": performance_raw,
             "performance_calculated": performance_calculated
-        })
+        }
+        output_creative.update(breakdowns)
+
+        output_payload["campaign"]["creatives"].append(output_creative)
 
     # --- Safe Demographic Metrics ---
+    # Guardrail: MEMBER_* pivots only support a limited metric set. Do NOT add
+    # approximateMemberReach, conversionValueInLocalCurrency, cardClicks/
+    # cardImpressions, viralCardClicks/viralCardImpressions, or any other
+    # non-demographic-pivot metric (see metrics_registry.py) to demo_metrics
+    # below -- those fields are invalid under MEMBER_* pivots and will 400 the
+    # whole call.
     demo_metrics = "dateRange,impressions,landingPageClicks,costInLocalCurrency,pivotValues"
 
     # --- 9. Fetch Professional Demographics Breakdown by Member Company ---
