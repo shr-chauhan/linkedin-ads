@@ -11,3 +11,7 @@ env/
 dist/
 build/
 *.json
+!package.json
+!package-lock.json
+!campaigns.json
+node_modules/

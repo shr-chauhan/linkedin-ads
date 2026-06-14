@@ -2,7 +2,21 @@
   "permissions": {
     "allow": [
       "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Aisepedia\\\\Linkedin\\\\docs\\\\superpowers\\\\plans\")",
-      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Aisepedia\\\\Linkedin\\\\linkedin_ads\\\\tests\")"
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Aisepedia\\\\Linkedin\\\\linkedin_ads\\\\tests\")",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(powershell -NoProfile -Command \"Get-CimInstance Win32_Process -Filter \\\\\"CommandLine LIKE '%uvicorn%'\\\\\" | Select-Object ProcessId, CommandLine\")",
+      "Bash(powershell -NoProfile -Command \"Stop-Process -Id 26728 -Force\")",
+      "Bash(curl -s http://localhost:5173/ -o /dev/null -w \"frontend HTTP %{http_code}\\\\n\")",
+      "Bash(curl -s http://localhost:8000/campaigns -o /dev/null -w \"backend /campaigns HTTP %{http_code}\\\\n\")",
+      "Bash(powershell -NoProfile -Command \"Stop-Process -Id 10996 -Force; Start-Sleep -Milliseconds 500; Get-NetTCPConnection -LocalPort 8000 -ErrorAction SilentlyContinue\")",
+      "Bash(powershell -NoProfile -Command \"Get-Process -Id 10996 -ErrorAction SilentlyContinue; Write-Output '---'; Get-NetTCPConnection -LocalPort 8000 -ErrorAction SilentlyContinue\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('campaign_report.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
+      "Bash(cd \"c:\\\\Aisepedia\\\\Linkedin\" && rm cache/*.json && ls cache/)",
+      "Bash(docker compose *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Aisepedia\\Linkedin\\cache"
     ]
   }
 }

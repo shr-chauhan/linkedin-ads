@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./campaigns.json:/data/campaigns.json:ro,z
+      - ./cache:/data/cache:z
+      - ./linkedin_ads/token.json:/data/token.json:ro,z
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_BASE: /api
+    ports:
+      - "${FRONTEND_PORT:-80}:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
