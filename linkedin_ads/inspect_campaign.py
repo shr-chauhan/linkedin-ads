@@ -66,7 +66,6 @@ def get_linkedin_raw(url: str, token: str) -> dict:
             return {"_api_error_text": resp.text[:1000]}
     return resp.json()
 
-
 def fetch_targeting_translations(urn_list, token):
     if not urn_list:
         return {}
@@ -109,7 +108,6 @@ def fetch_targeting_translations(urn_list, token):
 
     print(f"├── Successfully resolved {len(translations)} entities")
     return translations
-
 
 def augment_targeting_criteria(item, translations: dict):
     if isinstance(item, list):
@@ -159,6 +157,34 @@ def extract_all_urns_from_targeting(criteria_dict: dict) -> list:
         urns.append(criteria_dict)
     return urns
 
+def calculate_metrics(raw: dict) -> dict:
+    """Calculates rates, ratios, and down-funnel costs based on raw tracking data."""
+    calc = {}
+    
+    impressions = raw.get("impressions", 0)
+    clicks = raw.get("clicks", 0)
+    landing_clicks = raw.get("landingPageClicks", 0)
+    spend = raw.get("spend_float", 0.0)
+    conversions = raw.get("externalWebsiteConversions", 0)
+    form_opens = raw.get("oneClickLeadFormOpens", 0)
+    leads = raw.get("oneClickLeads", 0)
+    qual_leads = raw.get("qualifiedLeads", 0)
+    v_starts = raw.get("videoStarts", 0)
+    v_views = raw.get("videoViews", 0)
+    v_comps = raw.get("videoCompletions", 0)
+
+    calc["ctr_percent"] = round((clicks / impressions) * 100, 2) if impressions > 0 else 0.0
+    calc["conversion_rate_percent"] = round((conversions / landing_clicks) * 100, 2) if landing_clicks > 0 else 0.0
+    calc["cost_per_conversion"] = round(spend / conversions, 2) if conversions > 0 else 0.0
+    calc["lead_form_completion_rate_percent"] = round((leads / form_opens) * 100, 2) if form_opens > 0 else 0.0
+    calc["cost_per_lead"] = round(spend / leads, 2) if leads > 0 else 0.0
+    calc["cost_per_qualified_lead"] = round(spend / qual_leads, 2) if qual_leads > 0 else 0.0
+    calc["video_view_rate_percent"] = round((v_views / impressions) * 100, 2) if impressions > 0 else 0.0
+    calc["video_completion_rate_percent"] = round((v_comps / v_starts) * 100, 2) if v_starts > 0 else 0.0
+    calc["cpc"] = round(spend / clicks, 2) if clicks > 0 else 0.0
+    calc["cpm"] = round((spend / impressions) * 1000, 2) if impressions > 0 else 0.0
+
+    return calc
 
 def main():
     token = load_token_string()
@@ -220,7 +246,6 @@ def main():
     daily_budget_raw = campaign_direct_data.get("dailyBudget", {})
     unit_cost_raw = campaign_direct_data.get("unitCost", {})
 
-    # Assembled Root Campaign Object (Preserving structure)
     output_payload = {
         "campaign": {
             "campaign_id": TARGET_CAMPAIGN_ID,
@@ -263,26 +288,41 @@ def main():
     creatives_data = get_linkedin_raw(creatives_url, token)
     creative_elements = creatives_data.get("elements", []) if isinstance(creatives_data, dict) else []
 
-    # --- 7. Fetch Global Analytics Metrics ---
-    print("├── Dumping statistical engine analytics rows...")
+    # --- 7. Fetch Global Analytics Metrics via Dual-Query Engine ---
+    print("├── Dumping statistical engine analytics rows via safe chunking requests...")
     end_dt = datetime.now(timezone.utc)
     start_dt = end_dt - timedelta(days=1095)
     date_range_str = f"(start:(year:{start_dt.year},month:{start_dt.month},day:{start_dt.day}),end:(year:{end_dt.year},month:{end_dt.month},day:{end_dt.day}))"
     
-    creative_metrics = "externalWebsiteConversions,dateRange,impressions,landingPageClicks,likes,shares,costInLocalCurrency,pivotValues"
-    stats_url = (
-        f"{BASE_URL}adAnalytics?q=analytics&pivot=CREATIVE&timeGranularity=ALL"
-        f"&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={creative_metrics}"
-    )
-    all_analytics = get_linkedin_raw(stats_url, token)
-    analytics_elements = all_analytics.get("elements", []) if isinstance(all_analytics, dict) else []
+    # Batch 1 (11 metrics + 2 structural fields = 13 parameters)
+    metrics_batch_1 = "impressions,costInLocalCurrency,clicks,landingPageClicks,likes,shares,comments,commentLikes,totalEngagements,follows,oneClickLeadFormOpens,dateRange,pivotValues"
+    # Batch 2 (8 metrics + 2 structural fields = 10 parameters)
+    metrics_batch_2 = "oneClickLeads,qualifiedLeads,videoStarts,videoViews,videoCompletions,videoWatchTime,averageVideoWatchTime,externalWebsiteConversions,registrations,dateRange,pivotValues"
+
+    stats_url_1 = f"{BASE_URL}adAnalytics?q=analytics&pivot=CREATIVE&timeGranularity=ALL&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={metrics_batch_1}"
+    stats_url_2 = f"{BASE_URL}adAnalytics?q=analytics&pivot=CREATIVE&timeGranularity=ALL&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={metrics_batch_2}"
+
+    analytics_data_1 = get_linkedin_raw(stats_url_1, token).get("elements", [])
+    analytics_data_2 = get_linkedin_raw(stats_url_2, token).get("elements", [])
 
     performance_map = {}
-    for row in analytics_elements:
+    
+    # Process and seed tracking data using batch 1
+    for row in analytics_data_1:
         p_vals = row.get("pivotValues", [])
         if p_vals:
             c_id = extract_id(p_vals[0])
-            performance_map[c_id] = row
+            performance_map[c_id] = dict(row)
+
+    # Seamlessly overlay metric components returned from batch 2
+    for row in analytics_data_2:
+        p_vals = row.get("pivotValues", [])
+        if p_vals:
+            c_id = extract_id(p_vals[0])
+            if c_id in performance_map:
+                performance_map[c_id].update(row)
+            else:
+                performance_map[c_id] = dict(row)
 
     # --- 8. Assemble Hierarchical Creative Blocks ---
     for creative in creative_elements:
@@ -329,32 +369,46 @@ def main():
             }
 
         perf_row = performance_map.get(creative_id, {})
-        impressions = perf_row.get("impressions", 0)
-        clicks = perf_row.get("landingPageClicks", 0)
-        ctr = round((clicks / impressions) * 100, 2) if impressions else 0
         
         raw_spend = perf_row.get("costInLocalCurrency", 0)
-        spend = round(float(raw_spend), 2) if raw_spend else 0.0
+        spend_float = round(float(raw_spend), 2) if raw_spend else 0.0
 
-        date_range_data = perf_row.get("dateRange", {})
-        start_range = format_api_date(date_range_data.get("start"))
-        end_range = format_api_date(date_range_data.get("end"))
-
-        performance_data = {
-            "impressions": impressions,
-            "landing_page_clicks": clicks,
-            "ctr_percent": ctr,
+        # Core payload mapped exactly to native API naming parameters
+        performance_raw = {
+            "impressions": perf_row.get("impressions", 0),
+            "costInLocalCurrency": str(raw_spend),
+            "spend_float": spend_float,  # Pass inside cleanly to fuel calculations
+            "clicks": perf_row.get("clicks", 0),
+            "landingPageClicks": perf_row.get("landingPageClicks", 0),
             "likes": perf_row.get("likes", 0),
             "shares": perf_row.get("shares", 0),
-            "external_website_conversions": perf_row.get("externalWebsiteConversions", 0),
-            "spend": spend,
+            "comments": perf_row.get("comments", 0),
+            "commentLikes": perf_row.get("commentLikes", 0),
+            "totalEngagements": perf_row.get("totalEngagements", 0),
+            "follows": perf_row.get("follows", 0),
+            "oneClickLeadFormOpens": perf_row.get("oneClickLeadFormOpens", 0),
+            "oneClickLeads": perf_row.get("oneClickLeads", 0),
+            "qualifiedLeads": perf_row.get("qualifiedLeads", 0),
+            "videoStarts": perf_row.get("videoStarts", 0),
+            "videoViews": perf_row.get("videoViews", 0),
+            "videoCompletions": perf_row.get("videoCompletions", 0),
+            "videoWatchTime": perf_row.get("videoWatchTime", 0),
+            "averageVideoWatchTime": perf_row.get("averageVideoWatchTime", 0),
+            "externalWebsiteConversions": perf_row.get("externalWebsiteConversions", 0),
+            "registrations": perf_row.get("registrations", 0),
             "currency_code": output_payload["campaign"]["daily_budget"]["currency"],
             "reporting_period": {
-                "start_date": start_range,
-                "end_date": end_range
+                "start_date": format_api_date(perf_row.get("dateRange", {}).get("start")),
+                "end_date": format_api_date(perf_row.get("dateRange", {}).get("end"))
             },
             "pivot_creative_urn": perf_row.get("pivotValues", [None])[0]
         }
+
+        # Calculate ratios and downstream metrics
+        performance_calculated = calculate_metrics(performance_raw)
+        
+        # Pop calculation helper keys out of the raw dict before outputting
+        performance_raw.pop("spend_float", None)
 
         output_payload["campaign"]["creatives"].append({
             "creative_id": creative_id,
@@ -362,7 +416,8 @@ def main():
             "created_date": format_timestamp(creative.get("createdAt")),
             "modified_date": format_timestamp(creative.get("lastModifiedAt")),
             "post": post_data,
-            "performance": performance_data
+            "performance_raw": performance_raw,
+            "performance_calculated": performance_calculated
         })
 
     # --- Safe Demographic Metrics ---
@@ -375,8 +430,7 @@ def main():
         f"&dateRange={date_range_str}&accounts=List({account_urn_encoded})&fields={demo_metrics}"
     )
     company_analytics = get_linkedin_raw(demo_url, token)
-    company_elements = company_analytics.get("elements", []) if isinstance(company_analytics, dict) else []
-
+    
     all_companies = []
     for row in company_analytics.get("elements", []) if isinstance(company_analytics, dict) else []:
         p_vals = row.get("pivotValues", [])
@@ -408,7 +462,6 @@ def main():
                 entry["company_name"] = company_names[entry["company_urn"]]
 
     output_payload["campaign"]["company_demographics"] = company_report
-
 
     # --- 10. Fetch Demographics Breakdown by Job Function ---
     print("├── Querying Demographics Engine for Job Functions (pivot=MEMBER_JOB_FUNCTION)...")
@@ -452,7 +505,6 @@ def main():
     output_payload["campaign"]["job_function_demographics"] = func_report
     print(f"│   └── Isolated top {len(func_report)} job function performance blocks.")
 
-
     # --- 11. Fetch Demographics Breakdown by Seniority ---
     print("├── Querying Demographics Engine for Member Seniority (pivot=MEMBER_SENIORITY)...")
     seniority_url = (
@@ -495,7 +547,6 @@ def main():
     output_payload["campaign"]["seniority_demographics"] = sen_report
     print(f"│   └── Isolated top {len(sen_report)} seniority performance blocks.")
 
-
     # --- 12. Fetch Demographics Breakdown by Company Size ---
     print("├── Querying Demographics Engine for Company Sizes (pivot=MEMBER_COMPANY_SIZE)...")
     size_url = (
@@ -504,18 +555,6 @@ def main():
     )
     size_analytics = get_linkedin_raw(size_url, token)
     size_elements = size_analytics.get("elements", []) if isinstance(size_analytics, dict) else []
-
-    COMPANY_SIZE_MAP = {
-        "SIZE_1": "1 employee",
-        "SIZE_2_TO_10": "2-10 employees",
-        "SIZE_11_TO_50": "11-50 employees",
-        "SIZE_51_TO_200": "51-200 employees",
-        "SIZE_201_TO_500": "201-500 employees",
-        "SIZE_501_TO_1000": "501-1,000 employees",
-        "SIZE_1001_TO_5000": "1,001-5,000 employees",
-        "SIZE_5001_TO_10000": "5,001-10,000 employees",
-        "SIZE_10001_OR_MORE": "10,000+ employees"
-    }
 
     all_sizes = []
     for row in size_elements:
@@ -527,12 +566,9 @@ def main():
             row_clicks = row.get("landingPageClicks", 0)
             row_ctr = round((row_clicks / row_impressions) * 100, 2) if row_impressions else 0
             
-            # resolved_size_name = COMPANY_SIZE_MAP.get(size_id, "Unknown Size Range")
-
             all_sizes.append({
                 "company_size_urn": size_urn,
                 "company_size_id": size_id,
-                # "company_size_name": resolved_size_name,
                 "impressions": row_impressions,
                 "landing_page_clicks": row_clicks,
                 "ctr_percent": row_ctr,
@@ -544,7 +580,6 @@ def main():
 
     output_payload["campaign"]["company_size_demographics"] = size_report
     print(f"│   └── Isolated top {len(size_report)} company size performance blocks.")
-
 
     # --- Write Clean Output To Disk ---
     out_file = Path(f"raw_campaign_{TARGET_CAMPAIGN_ID}_debug.json")
