@@ -13,7 +13,11 @@
       "Bash(powershell -NoProfile -Command \"Get-Process -Id 10996 -ErrorAction SilentlyContinue; Write-Output '---'; Get-NetTCPConnection -LocalPort 8000 -ErrorAction SilentlyContinue\")",
       "Bash(python -c \"import ast; ast.parse\\(open\\('campaign_report.py'\\).read\\(\\)\\); print\\('OK'\\)\")",
       "Bash(cd \"c:\\\\Aisepedia\\\\Linkedin\" && rm cache/*.json && ls cache/)",
-      "Bash(docker compose *)"
+      "Bash(docker compose *)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('linkedin_ads/token.json'\\)\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(python _tmp_inspect_images.py)",
+      "Bash(python -c ' *)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
     ],
     "additionalDirectories": [
       "C:\\Aisepedia\\Linkedin\\cache"

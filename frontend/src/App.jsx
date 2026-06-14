@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import CampaignPicker from './CampaignPicker.jsx'
 import CampaignDetail from './CampaignDetail.jsx'
+import MetricsGuide from './MetricsGuide.jsx'
 import { Loading, TokenExpired, ErrorState, EmptyState } from './StateViews.jsx'
 import { fetchCampaigns, fetchCampaignReport } from './api.js'
 
@@ -12,6 +13,7 @@ export default function App() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
   const [tokenExpired, setTokenExpired] = useState(false)
+  const [showGuide, setShowGuide] = useState(false)
 
   useEffect(() => {
     fetchCampaigns()
@@ -53,7 +55,12 @@ export default function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>LinkedIn Campaign Dashboard</h1>
+        <div className="app-header-top">
+          <h1>LinkedIn Campaign Dashboard</h1>
+          <button className="metrics-guide-trigger" onClick={() => setShowGuide(true)}>
+            What am I looking at?
+          </button>
+        </div>
         <CampaignPicker
           campaigns={campaigns}
           campaignsError={campaignsError}
@@ -61,6 +68,8 @@ export default function App() {
           onSelect={handleSelect}
         />
       </header>
+
+      {showGuide && <MetricsGuide onClose={() => setShowGuide(false)} />}
 
       <main className="app-main">
         {!selectedId && <EmptyState message="Pick a campaign above to get started." />}

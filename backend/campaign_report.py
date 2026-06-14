@@ -320,14 +320,27 @@ def build_campaign_report(account_id: str, campaign_id: str, token: str) -> dict
             post_endpoint_url = f"{BASE_URL}posts/{post_key}"
             raw_post = get_linkedin_raw(post_endpoint_url, token)
 
+            content_details = raw_post.get("content", {})
+            media_id = str((content_details.get("media") or {}).get("id") or "")
+
             image_urn = None
             image_url = None
-            content_details = raw_post.get("content", {})
+            video_url = None
 
             if "article" in content_details:
+                # Link/article shares: the visual is the link-preview thumbnail.
                 image_urn = content_details["article"].get("thumbnail")
-            elif "mediaComponent" in content_details:
-                image_urn = content_details["mediaComponent"].get("thumbnail")
+            elif media_id.startswith("urn:li:video:"):
+                # Video ads: content.media.id is the video URN -- /videos/{urn}
+                # returns a ready-to-use poster thumbnail and mp4 download URL.
+                print(f"│   │   ├── Resolving back-end video asset location for: {media_id}...")
+                escaped_video_urn = media_id.replace(":", "%3A")
+                raw_video_data = get_linkedin_raw(f"{BASE_URL}videos/{escaped_video_urn}", token)
+                image_url = raw_video_data.get("thumbnail")
+                video_url = raw_video_data.get("downloadUrl")
+            elif media_id.startswith("urn:li:image:"):
+                # Single-image ads: content.media.id is the image URN directly.
+                image_urn = media_id
 
             if image_urn:
                 print(f"│   │   ├── Resolving back-end image asset location for: {image_urn}...")
@@ -346,7 +359,11 @@ def build_campaign_report(account_id: str, campaign_id: str, token: str) -> dict
                 "asset_image": {
                     "urn": image_urn,
                     "download_url": image_url
-                }
+                },
+                "asset_video": {
+                    "urn": media_id,
+                    "download_url": video_url
+                } if video_url else None
             }
             post_content = content_details
 

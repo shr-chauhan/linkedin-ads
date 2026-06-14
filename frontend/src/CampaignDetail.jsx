@@ -99,6 +99,7 @@ function CreativeCard({ creative, currency }) {
   const { format, objective } = creative.classification || {}
   const post = creative.post || {}
   const image = post.asset_image?.download_url
+  const video = post.asset_video?.download_url
 
   return (
     <div className="creative-card">
@@ -112,14 +113,19 @@ function CreativeCard({ creative, currency }) {
             {post.publish_date && <span>Published: {formatDate(post.publish_date)}</span>}
           </div>
         </div>
-        <span className="creative-format">{format} / {objective}</span>
+        <div className="creative-badges">
+          <span className="badge badge-format">{humanizeKey(format)}</span>
+          <span className="badge badge-objective">{humanizeKey(objective)}</span>
+        </div>
       </div>
 
-      {(image || post.commentary || post.title || post.landing_page) && (
+      {(image || video || post.commentary || post.title || post.landing_page) && (
         <div className="creative-post">
-          {image && (
+          {video ? (
+            <video className="creative-image" src={video} poster={image || undefined} controls />
+          ) : image ? (
             <img className="creative-image" src={image} alt={post.title || creative.creative_name || ''} />
-          )}
+          ) : null}
           <div className="creative-post-text">
             {post.title && <p className="creative-post-title">{post.title}</p>}
             {post.commentary && <p>{post.commentary}</p>}
